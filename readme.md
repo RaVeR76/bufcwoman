@@ -76,7 +76,7 @@ The fonts are [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) f
 
 Below is an example of my fonts where the title is in Lato and the text is in Titillium Web .....
 
-![BUFC Woman Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/screenshots/fonts-example.png)
+![BUFC Woman Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/fonts-example.png)
 
 
 #### Icons
@@ -89,12 +89,12 @@ Other than that, we will just have to see what suits and fits the web page layou
 
 I have used the [Coolors](https://coolors.co/) website to come up with my colour scheme for this project and I love this wee website, as it has amazing combinations
 already there for developers to utilise them.
-I used [Image Color Picker](https://imagecolorpicker.com/) to select the exact colours that is used for the main club badge so I can use them throughout the sight. 
+I used [Image Color Picker](https://imagecolorpicker.com/) to select the exact colours that is used for the main club badge so I can use them throughout the site. 
 The only one I am a little wary off is the Yellow Orange as it may not look too good on a webpage but I will see how it goes and if needs be, I will tweak it a little to make it work.
 
 Below is an image of the chosen colours .....
 
-![BUFC Woman Colours](https://github.com/RaVeR76/bufcwoman/raw/main/screenshots/colour-scheme.png)
+![BUFC Woman Colours](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/colour-scheme.png)
 
 So a better breakdown of the colours are shown below:
 
@@ -116,9 +116,15 @@ Anyway, you can have a wee look at my wireframes below:
 
 #### Mobile Wireframes
 
+- [Mobile Wireframe](https://github.com/RaVeR76/bufcwoman/raw/main/docs/wireframes/mobile-view.pdf)
+
 #### Tablet Wireframes
 
+- [Tablet Wireframe](https://github.com/RaVeR76/bufcwoman/raw/main/docs/wireframes/tablet-view.pdf)
+
 #### Desktop Wireframes
+
+- [Desktop Wireframe](https://github.com/RaVeR76/bufcwoman/raw/main/docs/wireframes/desktop-view.pdf)
 
 ## **Features**
 ---
