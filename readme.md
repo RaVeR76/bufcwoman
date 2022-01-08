@@ -70,8 +70,13 @@ I hope you enjoy this project :)
 
 #### Fonts
 
+For my fonts, I am going to use [Google Fonts](https://fonts.google.com/) as my source of inspiration.  
+I have went with the same combination for my first ever website as it was a one page scrolling site too and the fonts looked so good on the screen. 
+The fonts are [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) for the main text and [Lato](https://fonts.google.com/specimen/Lato) for titles and section headings.
 
+Below is an example of my fonts where the title is in Lato and the text is in Titillium Web .....
 
+![BUFC Woman Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/screenshots/fonts-example.png)
 
 
 #### Icons
@@ -82,7 +87,23 @@ Other than that, we will just have to see what suits and fits the web page layou
 
 #### Colours
 
+I have used the [Coolors](https://coolors.co/) website to come up with my colour scheme for this project and I love this wee website, as it has amazing combinations
+already there for developers to utilise them.
+I used [Image Color Picker](https://imagecolorpicker.com/) to select the exact colours that is used for the main club badge so I can use them throughout the sight. 
+The only one I am a little wary off is the Yellow Orange as it may not look too good on a webpage but I will see how it goes and if needs be, I will tweak it a little to make it work.
 
+Below is an image of the chosen colours .....
+
+![BUFC Woman Colours](https://github.com/RaVeR76/bufcwoman/raw/main/screenshots/colour-scheme.png)
+
+So a better breakdown of the colours are shown below:
+
+|Name                  |Hex Code   |Basic Description  |Usage                           |
+|:--------------------:|:---------:|:-----------------:|:------------------------------:|
+|***White***           |#FFFFFF    |White              |Body background, text & titles  |
+|***Cyan Process***    |##26a9e0   |Sky Blue           |Body background                 |
+|***Yellow Orange***   |#faaf3f    |Light Orange       |Body background                 |
+|***Eerie Black***     |#262626    |Off Black          |Body background, text & titles  |
 
 
 
