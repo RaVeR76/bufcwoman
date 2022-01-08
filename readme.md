@@ -131,7 +131,20 @@ Anyway, you can have a wee look at my wireframes below:
 
 ### **Existing Features**
 
+* Responsive website across ALL devices
+* A *navbar* to enable easy navigation for the user to any section of their desired choice.
+* An aesthetically pleasing visual experience as they scroll through my website.
+* Contact form for sending a message to the club personnel
+* Social media links associated with the club
+
+
 ### **Features To Be Implemented**
+
+* Match blogs
+* Possible team sheets for each up and coming matches
+* Match schedules for the month or year, as per age group
+* Star player or players for each match, as per age group
+* Payment method for paying annual fees and weekly dues
 
 
 ## **Testing**
