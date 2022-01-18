@@ -101,7 +101,7 @@ So a better breakdown of the colours are shown below:
 |Name                  |Hex Code   |Basic Description  |Usage                           |
 |:--------------------:|:---------:|:-----------------:|:------------------------------:|
 |***White***           |#FFFFFF    |White              |Body background, text & titles  |
-|***Cyan Process***    |##26a9e0   |Sky Blue           |Body background                 |
+|***Cyan Process***    |#26a9e0    |Sky Blue           |Body background                 |
 |***Yellow Orange***   |#faaf3f    |Light Orange       |Body background                 |
 |***Eerie Black***     |#262626    |Off Black          |Body background, text & titles  |
 
