@@ -23,4 +23,15 @@ body {
 
 .nav-style {
     background-color: #e3f2fd;
+    height: 80px;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+
+.navbar-brand img{
+    height: 70px;
 }
