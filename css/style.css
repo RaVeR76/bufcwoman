@@ -42,13 +42,13 @@ body {
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Titillium+Web:wght@300;400&display=swap');
 html,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
     scroll-behavior: smooth;
@@ -150,6 +150,33 @@ body {
     height: 100vh;
     padding-top: 65px;
 }
+
+h2 {
+    font-family: "Lato", sans-serif;;
+}
+
+#sponsors {
+    background-color: aqua;
+}
+
+.card {
+    width: 35rem;
+}
+
+
+
+/* Card animation */
+/*
+.card{
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}*/
+
 
 
 
