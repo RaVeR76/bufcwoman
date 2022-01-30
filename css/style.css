@@ -81,7 +81,7 @@ body {
 }
 
 .nav div.logo a .logo-size {
-    height: 30px;
+    height: 40px;
 }
 
 
@@ -449,7 +449,7 @@ a:hover .title-wrapper {
         margin: 0;
     }
 
-    .logo {
+    .team-name {
         display: none;
     }
 
@@ -725,4 +725,18 @@ a:hover .title-wrapper {
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
+}
+
+
+@media (max-width: 500px) {
+
+    .nav div.logo {
+        float: none;
+        padding: 0;
+    }
+
+    .team-name {
+        display: none;
+    }
+
 }
