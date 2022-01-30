@@ -148,7 +148,7 @@ body {
 
 #about, #training, #sponsors {
     width: 100%;
-    height: 100vh;
+  /*  height: 100vh;*/
     padding-top: 65px;
 }
 
@@ -157,18 +157,12 @@ h2 {
 }
 
 
-/* SPONSORS SECTION */
+/* ABOUT SECTION */
 
-#sponsors {
-    background-color: #26a9e0;
-    color: #fff;
-}
 
-.card {
-    width: 35rem;
-    border-radius:20px;
-   /* background-color: rgba(245, 245, 245, 0);*/
-}
+.about-layout {
+    min-height: 90vh;
+  }
 
 
 
@@ -177,48 +171,35 @@ h2 {
 /* TRAINING SECTION */
 
 #training {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/training-image.jpg");
+    background: linear-gradient(0deg, rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/training-image.jpg");
     background-position: center top;
     background-size:cover;
+    background-attachment: fixed;
     color: #fff;
 }
 
-
-
-.cards-wrapper {
-    position: relative;
-    height: 80%;
-    list-style: none;
-    margin: 0;
-    padding: 0 5%;
+.card-layout {
+    min-height: 90vh;
+    /*padding: 40px;*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .card-wrapper {
-    display: block;
-    float: left;
-    position: relative;
-    margin: 0;
-    width: 28%;
-    height: 0;
-    padding: 0 0 28%;
-    perspective: 700px;
+  
+  /* .flip-card-container */
+  .flip-card-container {
+    width: 210px;
+   /* height: 300px;*/
+    margin: 40px;
+    perspective: 1000px;
   }
+
   .card-object {
-    color: #FFF;
-    display: block;
-    float: left;
-    position: absolute;
-    top: 6%;
-    left: 6%;
-    width: 88%;
-    height: 88%;
+    height: 35vh;
     transform-style: preserve-3d;
   }
-  
+
   .card-object.flip-in.card-1,
   .card-object.flip-in.card-3,
   .card-object.flip-in.card-5 {
@@ -268,7 +249,7 @@ h2 {
     bottom: -1px;
     left: -1px;
     content: "";
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.9) 100%) no-repeat;
     opacity: 0.7;
     z-index: 20;
     transition: opacity 0.2s ease;
@@ -285,7 +266,7 @@ h2 {
   }
   .face.front .title-wrapper {
     position: absolute;
-    bottom: 30%;
+    bottom: 24%;
     left: 25%;
     right: 25%;
     overflow: hidden;
@@ -369,7 +350,7 @@ a:hover .title-wrapper {
 
 
   .info-text {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-transform: uppercase;
     text-align: center;
   }
@@ -431,59 +412,25 @@ a:hover .title-wrapper {
 
 
 
+/* SPONSORS SECTION */
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-/*.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-   /* border: 1px solid #f1f1f1;*/
-   /* perspective: 1000px; /* Remove this if you don't want the 3D effect *//*
-  }*/
-  
-  /* This container is needed to position the front and back side */
-  /*.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }*/
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  /*.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }*/
-  
-  /* Position the front and back side */
-  /*.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-   /* backface-visibility: hidden;
-  }*/
-  
-  /* Style the front side (fallback if image is missing) */
-  /*.flip-card-front {
-    background-color: #fff;
-    color: black;
+#sponsors {
+    background-color: #26a9e0;
+    color: #fff;
+}
+
+.sponsor-layout {
+    min-height: 90vh;
+    /*padding: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.card {
+    width: 35rem;
     border-radius:20px;
-  }*/
-  
-  /* Style the back side */
-  /*.flip-card-back {
-    background-color: dodgerblue;
-    color: white;
-    border-radius:20px;
-    transform: rotateY(180deg);
-  }*/
-
-
-/* Card animation */
-/*
-.card{
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
 }
@@ -491,16 +438,13 @@ a:hover .title-wrapper {
 .card:hover{
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}*/
-
-
-
+}
 
 
 
 /* Media qurey section */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .container {
         margin: 0;
     }
@@ -508,9 +452,32 @@ a:hover .title-wrapper {
     .logo {
         display: none;
     }
+
+    .face.front .title-wrapper {
+        bottom: 44%;
+    }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
+
+    .cards-wrapper {
+        /* position: relative;*/
+        /* list-style: none;*/
+         display: flex;
+         flex-wrap: wrap;
+       }
+     
+       .card-object {
+         height: 25vh;
+         align-items: center;
+       }
+     
+       .face.front .title-wrapper .title {
+         font-size: 3vw;
+       }
+
+
+
     .navTrigger {
         display: block;
     }
@@ -529,7 +496,7 @@ a:hover .title-wrapper {
     .nav div.main_list ul {
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         right: 0;
         left: 0;
         bottom: 0;
@@ -755,31 +722,7 @@ a:hover .title-wrapper {
 }
 
 
-@media (min-width:300px) and (max-width:700px){
-.cards-wrapper {
-   /* position: relative;*/
-   /* list-style: none;*/
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-}
-
-
-
-
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
 }

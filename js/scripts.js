@@ -6,6 +6,14 @@ $('.navTrigger').click(function () {
 
 });
 
+$('.nav-close').click(function () {
+  $('.navTrigger').toggleClass('active');
+  console.log("Clicked menu");
+  $("#mainListDiv").toggleClass("show_list");
+  $("#mainListDiv").fadeIn();
+
+});
+
 
 
 //TRAINING CARDS
