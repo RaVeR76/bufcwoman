@@ -128,9 +128,28 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/hero-image-test.jpg");
+    background-image: url("../img/hero-image.jpg");
     background-position: center top;
 	background-size:cover;
+}
+
+#home .about-text  {
+    position: absolute;
+    top: 20%;
+    right: 14%;
+    color: #fff;
+    width: 40%; 
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+#home .about-text .hero-text {
+    font-size: 1.8vw;
+}
+
+#home .about-text .hero-text-2 {
+    font-size: 1.6vw;
+    color: #26a9e0;
 }
 
 .navTrigger {
