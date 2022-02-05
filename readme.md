@@ -1,10 +1,10 @@
-# **Ballymena United FC Woman**
+# **Ballymena United FC Women**
 
 *Hero Image Here*
 
 ## **Goal for this project**
 
-The main aim for this project is to display some information and contact details for my home towns local womans football team - **Ballymena United FC Woman**.  
+The main aim for this project is to display some information and contact details for my home towns local womans football team - **Ballymena United FC Women**.  
 The website will be fairly simple where users can visit for relevant information associated with the club. 
 This is all that is required at present and will possibly evolve in the future, depending on requirements.
 
@@ -76,7 +76,7 @@ The fonts are [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) f
 
 Below is an example of my fonts where the title is in Lato and the text is in Titillium Web .....
 
-![BUFC Woman Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/fonts-example.png)
+![BUFC Women Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/fonts-example.png)
 
 
 #### Icons
@@ -94,7 +94,7 @@ The only one I am a little wary off is the Yellow Orange as it may not look too 
 
 Below is an image of the chosen colours .....
 
-![BUFC Woman Colours](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/colour-scheme.png)
+![BUFC Women Colours](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/colour-scheme.png)
 
 So a better breakdown of the colours are shown below:
 
