@@ -143,7 +143,25 @@ h2 {
 
 .about-layout {
     min-height: 90vh;
+    background: linear-gradient(0deg, rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9)); /*  rgba(0, 255, 234, 0.411), rgba(255, 255, 255, 0.9) */
+  } /*  rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9) */
+
+
+.about-text {
+    font-size: 2rem;
+}
+
+  
+  .about-img {
+    min-height: 90vh;
+    background-image: url("../img/bufcw-logo.png");
+    background-position: center center;
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    opacity: 0.3;
   }
+
+
 
 
 
@@ -444,11 +462,28 @@ a:hover .title-wrapper {
     }
 
     .face.front .title-wrapper .subtitle {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
+    }
+
+    .info-text {
+        font-size: 2vw;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+
+    .nav div.logo {
+        float: none;
+        padding: 0;
+    }
+
+    .team-name {
+        display: none;
+    }
+
+    .myH2 {
+        padding-bottom: 4rem;
+    }
 
     .cards-wrapper {
         /* position: relative;*/
@@ -471,9 +506,15 @@ a:hover .title-wrapper {
         font-size: 1.8vw;
     }
 
-    .myH2 {
-        padding-bottom: 4rem;
+    .info-text {
+        font-size: 2.8vw;
     }
+
+    .back .info-wrapper {
+        margin-bottom: 35%;
+      }
+    
+  
 
 
 
@@ -521,21 +562,16 @@ a:hover .title-wrapper {
 
 @media (max-width: 500px) {
 
-    .nav div.logo {
-        float: none;
-        padding: 0;
-    }
-
-    .team-name {
-        display: none;
-    }
-
     .face.front .title-wrapper .title {
         font-size: 4vw;
     }
 
     .face.front .title-wrapper .subtitle {
         font-size: 2.5vw;
+    }
+
+    .info-text {
+        font-size: 4vw;
     }
 
 }
