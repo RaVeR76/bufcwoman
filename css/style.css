@@ -147,18 +147,29 @@ h2 {
   } /*  rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9) */
 
 
-.about-text {
+  .about-text, .about-text p {
     font-size: 2rem;
+    text-align: justify;
 }
+
+
 
   
   .about-img {
-    min-height: 90vh;
+   /* min-height: 90vh;
     background-image: url("../img/bufcw-logo.png");
     background-position: center center;
-    background-size: 50vh;
-    background-repeat: no-repeat;
-    opacity: 0.3;
+    background-size: 55vh;
+    background-repeat: no-repeat;*/
+    height: 55vh;
+    opacity: 0.4;
+  }
+
+  .about-img:hover {
+    /*visibility: visible;*/
+    opacity: 1;
+    /*transition: opacity 2s linear;*/
+    transition: opacity 3s ease-in-out;
   }
 
 
@@ -170,7 +181,8 @@ h2 {
 /* TRAINING SECTION */
 
 #training {
-    background: linear-gradient(0deg, rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/training-image.jpg");
+    background: linear-gradient(0deg,rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
+   /* background-image: url("../img/training-image.jpg");*/
     background-position: center top;
     background-size:cover;
     background-attachment: fixed;
@@ -483,6 +495,10 @@ a:hover .title-wrapper {
 
     .myH2 {
         padding-bottom: 4rem;
+    }
+
+    .about-img {
+        display: contents;
     }
 
     .cards-wrapper {
