@@ -95,23 +95,24 @@ body {
 	background-size:cover;
 }
 
-#home .about-text  {
+#home .home-text  {
     position: absolute;
-    top: 20%;
-    right: 14%;
+    top: 25%;
+    right: 10%;
     color: #fff;
     width: 40%; 
+    font-size: 1.8vw;
+}
+
+#home .home-text .hero-text {
     font-size: 1.8vw;
     text-align: center;
 }
 
-#home .about-text .hero-text {
-    font-size: 1.8vw;
-}
-
-#home .about-text .hero-text-2 {
+#home .home-text .hero-text-2 {
     font-size: 1.6vw;
     color: #26a9e0;
+    text-align: center;
 }
 
 .navTrigger {
@@ -171,6 +172,18 @@ h2 {
     /*transition: opacity 2s linear;*/
     transition: opacity 3s ease-in-out;
   }
+
+  /*
+  .about-img:hover {
+    opacity: 1;
+    animation: fade 2s linear;
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}*/
 
 
 
@@ -276,12 +289,12 @@ h2 {
     content: "";
   }
   .face.front .title-wrapper {
-    position: absolute;
+   /* position: absolute;
     bottom: 34%;
     left: 25%;
     right: 25%;
     overflow: hidden;
-    display: flex;
+    display: flex;*/
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -294,7 +307,7 @@ h2 {
     position: relative;
     width: 100%;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     line-height: 1;
     opacity: 1;
     transition: opacity 0.2s ease;
@@ -350,14 +363,14 @@ a:hover .title-wrapper {
     opacity: .9;
     z-index: 10;
   }
-
+/*
   .back .info-wrapper {
     margin-bottom: 50%;
   }
 
   .back .info-wrapper-2 {
     margin-bottom: 30%;
-  }
+  }*/
 
 
   .info-text {
@@ -464,10 +477,10 @@ a:hover .title-wrapper {
     .team-name {
         display: none;
     }
-
+/*
     .face.front .title-wrapper {
-        bottom: 44%;
-    }
+        bottom: 30%;
+    }*/
 
     .face.front .title-wrapper .title {
         font-size: 2.2vw;
@@ -525,11 +538,11 @@ a:hover .title-wrapper {
     .info-text {
         font-size: 2.8vw;
     }
-
+/*
     .back .info-wrapper {
         margin-bottom: 35%;
       }
-    
+ */   
   
 
 
