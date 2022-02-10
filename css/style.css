@@ -468,8 +468,17 @@ a:hover .title-wrapper {
 
 /* CONTACT SECTION */
 
+#contact {
+    /*background: linear-gradient(0deg,rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/outdoor-pitch.jpg"); */ /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
+    background-image: url("../img/adidas-football.jpg");
+    background-position: center top;
+    background-size:cover;
+  /*  background-attachment: fixed;*/
+    color: #fff;
+}
+
 .contact{
-    background-color: #26a9e0;
+   /* background-color: #26a9e0;*/
     color: #fff;
 }
 
@@ -490,6 +499,11 @@ a:hover .title-wrapper {
   .contact-links, .contact-form-wrapper {
     width: 50%;
     padding: 8% 5% 10% 5%;
+  }
+
+  div .link {
+      display: inline;
+      align-items: center;
   }
   
   
@@ -513,8 +527,17 @@ a:hover .title-wrapper {
   }
   
   .contact-form-wrapper {
-    background-color: #ffffff8f;
+    background-color: #ffffffbb;
     border-radius: 0 10px 10px 0;
+    color: #000;
+  }
+
+div label, button {
+    font-size: 1.5rem;
+}
+
+div input, textarea {
+      width: 80%;
   }
 
 
