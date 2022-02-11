@@ -485,19 +485,14 @@ a:hover .title-wrapper {
 .contact-layout {
     min-height: 90vh;
     display: flex;
+   flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-  }
-  
-  .contact-box {
-    width: 50vw; /*clamp(100px, 90%, 1000px); */
-  /*  margin: 80px 50px;*/
-    display: flex;
-    flex-wrap: wrap;
+    /*align-items: center;*/
   }
   
   .contact-links, .contact-form-wrapper {
-    width: 50%;
+    width: 30vw;
+    height: 50vh;
     padding: 8% 5% 10% 5%;
   }
 
@@ -624,7 +619,10 @@ div input, textarea {
         margin-bottom: 35%;
       }
  */   
-  
+
+ .contact-links, .contact-form-wrapper {
+     flex: 0 50%;
+}
 
 
 
