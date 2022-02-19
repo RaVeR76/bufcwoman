@@ -98,6 +98,17 @@ h2 {
     color: #00E676;
 }
 
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
 /* Home section */
 
 .home {
@@ -127,18 +138,6 @@ h2 {
     color: #26a9e0;
     text-align: center;
 }
-
-.navTrigger {
-    display: none;
-}
-
-.nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
 
 /* ABOUT SECTION */
 
@@ -493,10 +492,17 @@ div input, textarea {
 
 /* Media qurey section */
 
+@media (min-width: 768px) and (max-width: 1400px) {
+    .about-crest {
+        padding-bottom: 4rem;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
+    /*
     .container {
         margin: 0;
-    }
+    }*/
 
     .team-name {
         display: none;
@@ -525,10 +531,10 @@ div input, textarea {
     .team-name {
         display: none;
     }
-/*
+
     .myH2 {
-        padding-bottom: 4rem;
-    }*/
+        font-size: 3rem;
+    }
 
     .about-img {
         display: contents;
@@ -563,7 +569,14 @@ div input, textarea {
         margin-bottom: 35%;
       }
  */
- 
+    
+    .sponsor-layout {
+        padding: 5rem;
+    }
+
+    .contact-layout {
+        padding: 5rem;
+    }
  
  
 /*
@@ -627,6 +640,11 @@ div input, textarea {
 
     .info-text {
         font-size: 4vw;
+    }
+
+    .card {
+        /* height: auto;*/
+         width: 25rem;
     }
 
 }
