@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Titillium+Web:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Titillium+Web&display=swap');
+
+/* General Site Layout */
+
 html,
 body {
     margin: 0;
@@ -6,9 +9,28 @@ body {
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
     font-size: 62.5%;
-    font-size: 10px;
+   /* font-size: 10px;*/
     scroll-behavior: smooth;
 }
+
+#home, #about, #training, #sponsors, #contact {
+    width: 100%;
+    padding-top: 70px;
+}
+
+h2 {
+    font-family: "Roboto Serif", sans-serif;
+}
+
+.myH2 {
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 600;
+	text-align:center;
+	font-size: 4rem;
+    text-decoration: underline;
+}
+
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -39,8 +61,6 @@ body {
 .nav div.logo a .logo-size {
     height: 40px;
 }
-
-
 
 .nav div.logo a:hover {
     color: #00E676;
@@ -77,47 +97,6 @@ body {
 .nav div.main_list ul li a:hover {
     color: #00E676;
 }
-
-#home, #about, #training, #sponsors, #contact {
-    width: 100%;
-  /*  height: 100vh;*/
-    padding-top: 65px;
-}
-
-h2 {
-    font-family: "Lato", sans-serif;
-}
-
-.myH2 {
-    font-weight: 600;
-	text-align:center;
-	font-size: 4rem;
-}
-
-
-/* TEST TITLES */
-
-.mytitle {
-    max-width: fit-content;
-
-	/*margin: 1em 0 0.5em 0;*/
-	font-weight: 600;
-	/*font-family: 'Titillium Web', sans-serif;*/
-	text-align: center;  
-	font-size: 36px;
-	line-height: 40px;
-	padding: 15px 30px 15px 30px;
-	/*color: #355681;*/
-	box-shadow: 
-		/*inset 0 0 0 1px rgba(53,86,129, 0.4), */
-		/*inset 0 0 5px rgba(53,86,129, 0.5),*/
-		inset 0 0 10px white;
-	border-radius: 10px 10px 10px 10px;
-	background: transparent;
-}
-
-
-
 
 /* Home section */
 
@@ -163,55 +142,25 @@ h2 {
 
 /* ABOUT SECTION */
 
-
 .about-layout {
     min-height: 90vh;
     background: linear-gradient(0deg, rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9)); /*  rgba(0, 255, 234, 0.411), rgba(255, 255, 255, 0.9) */
-  } /*  rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9) */
+} /*  rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9) */
 
-
-  .about-text, .about-text p {
+.about-text, .about-text p {
     font-size: 2rem;
     text-align: justify;
 }
 
-
-
-  
-  .about-img {
-   /* min-height: 90vh;
-    background-image: url("../img/bufcw-logo.png");
-    background-position: center center;
-    background-size: 55vh;
-    background-repeat: no-repeat;*/
+.about-img {
     height: 55vh;
     opacity: 0.4;
-  }
-
-  .about-img:hover {
-    /*visibility: visible;*/
-    opacity: 1;
-    /*transition: opacity 2s linear;*/
-    transition: opacity 3s ease-in-out;
-  }
-
-  /*
-  .about-img:hover {
-    opacity: 1;
-    animation: fade 2s linear;
 }
 
-/*
-@keyframes fade {
-  0%,100% { opacity: 0 }
-  50% { opacity: 1 }
-}*/
-
-
-
-
-
-
+.about-img:hover {
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+}
 
 /* TRAINING SECTION */
 
@@ -226,50 +175,52 @@ h2 {
 
 .card-layout {
     min-height: 90vh;
-    /*padding: 40px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  /* .flip-card-container */
-  .flip-card-container {
+.flip-card-container {
     width: 210px;
-   /* height: 300px;*/
     margin: 40px;
     perspective: 1000px;
-  }
+}
 
-  .card-object {
+.card-object {
     height: 35vh;
     transform-style: preserve-3d;
-  }
+}
 
-  .card-object.flip-in.card-1,
-  .card-object.flip-in.card-3,
-  .card-object.flip-in.card-5 {
+.card-object.flip-in.card-1,
+.card-object.flip-in.card-3,
+.card-object.flip-in.card-5 {
     -webkit-animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
             animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
-  }
-  .card-object.flip-in.card-2,
-  .card-object.flip-in.card-4 {
+}
+
+.card-object.flip-in.card-2,
+.card-object.flip-in.card-4 {
     -webkit-animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
             animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
-  }
-  .card-object.flip-out.card-1,
-  .card-object.flip-out.card-3,
-  .card-object.flip-out.card-5 {
+}
+
+.card-object.flip-out.card-1,
+.card-object.flip-out.card-3,
+.card-object.flip-out.card-5 {
     animation: flip-2-hor-top-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) reverse both;
-  }
-  .card-object.flip-out.card-2,
-  .card-object.flip-out.card-4 {
+}
+
+.card-object.flip-out.card-2,
+.card-object.flip-out.card-4 {
     animation: flip-2-hor-bottom-fwd 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) reverse both;
-  }
-  .card-object-hf .back {
+}
+
+.card-object-hf .back {
     transform: rotateX(180deg);
-  }
-  .face {
+}
+
+.face {
     color: #fff;
     text-decoration: none;
     display: flex;
@@ -281,14 +232,16 @@ h2 {
     height: 100%;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-  }
-  .face.front {
+}
+
+.face.front {
     z-index: 20;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-  }
-  .face.front::before {
+}
+
+.face.front::before {
     position: absolute;
     top: -1px;
     right: -1px;
@@ -299,8 +252,9 @@ h2 {
     opacity: 0.7;
     z-index: 20;
     transition: opacity 0.2s ease;
-  }
-  .face.front::after {
+}
+
+.face.front::after {
     position: absolute;
     top: 7%;
     right: 7%;
@@ -309,14 +263,9 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.35);
     z-index: 100;
     content: "";
-  }
-  .face.front .title-wrapper {
-   /* position: absolute;
-    bottom: 34%;
-    left: 25%;
-    right: 25%;
-    overflow: hidden;
-    display: flex;*/
+}
+
+.face.front .title-wrapper {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -324,8 +273,9 @@ h2 {
     z-index: 100;
     transform: translateY(0);
     transition: transform 0.28s ease;
-  }
-  .face.front .title-wrapper .title {
+}
+
+.face.front .title-wrapper .title {
     position: relative;
     width: 100%;
     text-transform: uppercase;
@@ -333,8 +283,9 @@ h2 {
     line-height: 1;
     opacity: 1;
     transition: opacity 0.2s ease;
-  }
-  .face.front .title-wrapper .title::after {
+}
+
+.face.front .title-wrapper .title::after {
     display: block;
     margin: 7% auto 8% auto;
     width: 100%;
@@ -344,62 +295,59 @@ h2 {
     opacity: 0.5;
     transform: scale(0);
     transition: transform 0.15s;
-  }
-  .face.front .title-wrapper .subtitle {
+}
+
+.face.front .title-wrapper .subtitle {
     font-size: 0.9vw;
     line-height: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 0.15s;
-  }
-  .face.front:hover::before {
+}
+
+.face.front:hover::before {
     opacity: 0.9;
-  }
-  .face.front:hover .title-wrapper {
+}
+
+.face.front:hover .title-wrapper {
     transform: translateY(-50%);
-  }
-  .face.front:hover .title-wrapper .title {
+}
+
+.face.front:hover .title-wrapper .title {
     opacity: 1;
-  }
-  .face.front:hover .title-wrapper .title::after {
+}
+
+.face.front:hover .title-wrapper .title::after {
     transform: scale(1);
     opacity: 0.5;
     transition-delay: 0.15s;
     transition-duration: 0.2s;
-  }
-  .face.front:hover .title-wrapper .subtitle {
+}
+
+.face.front:hover .title-wrapper .subtitle {
     opacity: 0.7;
     transition-delay: 0.2s;
     transition-duration: 0.2s;
-  }
+}
 
 a:hover .title-wrapper {
     color: #00E676 !important; 
 }
 
-  .face.back {
+.face.back {
     color: #262626;
     background: #fff;
     border-radius: 20px;
     opacity: .9;
     z-index: 10;
-  }
-/*
-  .back .info-wrapper {
-    margin-bottom: 50%;
-  }
+}
 
-  .back .info-wrapper-2 {
-    margin-bottom: 30%;
-  }*/
-
-
-  .info-text {
+.info-text {
     font-size: 1.3vw;
     text-transform: uppercase;
     text-align: center;
-  }
+}
 
   /* ----------------------------------------------
    * Generated by Animista on 2017-21-5 2:48:23
@@ -410,7 +358,7 @@ a:hover .title-wrapper {
    * animation flip-2-hor-top-fwd
    * ----------------------------------------
    */
-  @-webkit-keyframes flip-2-hor-top-fwd {
+@-webkit-keyframes flip-2-hor-top-fwd {
     0% {
       transform: translateY(0) translateZ(0) rotateX(0);
       transform-origin: 50% 0%;
@@ -419,8 +367,9 @@ a:hover .title-wrapper {
       transform: translateY(-100%) translateZ(100px) rotateX(-180deg);
       transform-origin: 50% 100%;
     }
-  }
-  @keyframes flip-2-hor-top-fwd {
+}
+
+@keyframes flip-2-hor-top-fwd {
     0% {
       transform: translateY(0) translateZ(0) rotateX(0);
       transform-origin: 50% 0%;
@@ -429,13 +378,14 @@ a:hover .title-wrapper {
       transform: translateY(-100%) translateZ(100px) rotateX(-180deg);
       transform-origin: 50% 100%;
     }
-  }
+}
+
   /**
    * ----------------------------------------
    * animation flip-2-hor-bottom-fwd
    * ----------------------------------------
    */
-  @-webkit-keyframes flip-2-hor-bottom-fwd {
+@-webkit-keyframes flip-2-hor-bottom-fwd {
     0% {
       transform: translateY(0) translateZ(0) rotateX(0);
       transform-origin: 50% 100%;
@@ -444,8 +394,9 @@ a:hover .title-wrapper {
       transform: translateY(100%) translateZ(100px) rotateX(180deg);
       transform-origin: 50% 0%;
     }
-  }
-  @keyframes flip-2-hor-bottom-fwd {
+}
+
+@keyframes flip-2-hor-bottom-fwd {
     0% {
       transform: translateY(0) translateZ(0) rotateX(0);
       transform-origin: 50% 100%;
@@ -454,16 +405,9 @@ a:hover .title-wrapper {
       transform: translateY(100%) translateZ(100px) rotateX(180deg);
       transform-origin: 50% 0%;
     }
-  }
-
-
+}
 
 /* SPONSORS SECTION */
-/*
-#sponsors {
-    background-color: #26a9e0;
-    color: #fff;
-}*/
 
 .sponsor-layout {
     min-height: 90vh;
@@ -487,10 +431,6 @@ a:hover .title-wrapper {
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-
-
-
-
 /* CONTACT SECTION */
 
 #contact {
@@ -498,36 +438,26 @@ a:hover .title-wrapper {
     background-image: url("../img/adidas-football.jpg");
     background-position: center top;
     background-size:cover;
-  /*  background-attachment: fixed;*/
-    color: #fff;
-}
-
-.contact{
-   /* background-color: #26a9e0;*/
     color: #fff;
 }
 
 .contact-layout {
     min-height: 90vh;
- /*   display: flex;
-   flex-wrap: wrap;*/
- /*   justify-content: center;*/
-    /*align-items: center;*/
   }
   
-  .contact-links, .contact-form-wrapper {
+.contact-links, .contact-form-wrapper {
     width: 100%;
     height: 50vh;
     padding: 8% 5% 10% 5%;
-  }
+}
 
-  div .link {
-      display: inline;
-      align-items: center;
-  }
+div .link {
+    display: inline;
+    align-items: center;
+}
   
   
-  .contact-links {
+.contact-links {
     background-color: #1f2e43;
     background:
       radial-gradient(
@@ -544,13 +474,13 @@ a:hover .title-wrapper {
       ), 
       #1f2e43;
     border-radius: 10px 0 0 10px;
-  }
+}
   
-  .contact-form-wrapper {
+.contact-form-wrapper {
     background-color: #ffffffbb;
     border-radius: 0 10px 10px 0;
     color: #000;
-  }
+}
 
 div label, button {
     font-size: 1.5rem;
@@ -558,14 +488,7 @@ div label, button {
 
 div input, textarea {
       width: 80%;
-  }
-
-
-
-
-
-
-
+}
 
 
 /* Media qurey section */
@@ -578,10 +501,6 @@ div input, textarea {
     .team-name {
         display: none;
     }
-/*
-    .face.front .title-wrapper {
-        bottom: 30%;
-    }*/
 
     .face.front .title-wrapper .title {
         font-size: 2.2vw;
