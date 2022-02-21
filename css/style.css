@@ -123,13 +123,12 @@ h2 {
     position: absolute;
     top: 25%;
     right: 10%;
-    color: #fff;
     width: 40%; 
-    font-size: 1.8vw;
 }
 
 #home .home-text .hero-text {
     font-size: 1.8vw;
+    color: #fff;
     text-align: center;
 }
 
@@ -410,6 +409,7 @@ a:hover .title-wrapper {
 
 .sponsor-layout {
     min-height: 90vh;
+   /* background: #26a9e0;*/
     /*padding: 40px;*/
     display: flex;
     flex-wrap: wrap;
@@ -426,7 +426,7 @@ a:hover .title-wrapper {
 }
 
 .card:hover{
-    transform: scale(1.02);
+    transform: scale(1.10);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
@@ -444,12 +444,16 @@ a:hover .title-wrapper {
     min-height: 90vh;
   }
   
-.contact-links, .contact-form-wrapper {
+
+  
+/*.contact-links,*/ .contact-form-wrapper {
     width: 100%;
-    height: 50vh;
+    height: auto;
     padding: 8% 5% 10% 5%;
 }
 
+
+/*
 div .link {
     display: inline;
     align-items: center;
@@ -477,7 +481,6 @@ div .link {
 
 
 .link i {
-    color: #00E676;
     width: 4rem;
     height: 4rem;
     padding: 1.2rem 0rem;
@@ -493,11 +496,11 @@ div .link {
 .link i:hover {
     background: #faaf3f;
     color: #212529;
-}
+}*/
   
 .contact-form-wrapper {
     background-color: #ffffffbb;
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 10px 10px 10px;
     color: #000;
 }
 
@@ -510,22 +513,33 @@ div input, textarea {
 }
 
 
-/* Media qurey section */
+/* Media query section */
 
 @media (min-width: 768px) and (max-width: 1400px) {
-    .about-crest {
+
+   /* .about-crest {
         padding-bottom: 4rem;
-    }
+    }*/
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    /*
-    .container {
-        margin: 0;
-    }*/
 
     .team-name {
         display: none;
+    }
+
+    #home .home-text  {
+        top: 20%;
+        right: 1%;
+        width: 60%;
+    }
+    
+    #home .home-text .hero-text {
+        font-size: 2.5vw;
+    }
+    
+    #home .home-text .hero-text-2 {
+        font-size: 2.2vw;
     }
 
     .face.front .title-wrapper .title {
@@ -554,6 +568,20 @@ div input, textarea {
 
     .myH2 {
         font-size: 3rem;
+    }
+
+    #home .home-text  {
+        top: 20%;
+        right: 1%;
+        width: 60%;
+    }
+    
+    #home .home-text .hero-text {
+        font-size: 3vw;
+    }
+    
+    #home .home-text .hero-text-2 {
+        font-size: 2.5vw;
     }
 
     .about-img {
@@ -597,6 +625,18 @@ div input, textarea {
     .contact-layout {
         padding: 5rem;
     }
+
+    /*
+
+    .contact-links {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .contact-form-wrapper {
+        border-radius: 0 0 10px 10px;
+    }*/
+
+    
  
  
 /*
@@ -650,6 +690,20 @@ div input, textarea {
 
 @media (max-width: 500px) {
 
+    #home .home-text  {
+        top: 20%;
+        right: 1%;
+        width: 70%;
+    }
+    
+    #home .home-text .hero-text {
+        font-size: 3.5vw;
+    }
+    
+    #home .home-text .hero-text-2 {
+        font-size:3vw;
+    }
+
     .face.front .title-wrapper .title {
         font-size: 4vw;
     }
@@ -666,6 +720,11 @@ div input, textarea {
         /* height: auto;*/
          width: 25rem;
     }
+
+    /*
+    .contact-links, .contact-form-wrapper {
+        height: auto;
+    }*/
 
 }
 
