@@ -34,13 +34,6 @@ h2 {
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
-/*
-.navbar {
-    background-color: #000;
-    height: 65px;
-}*/
-
-
 
 .nav {
     width: 100%;
@@ -104,6 +97,10 @@ h2 {
     color: #00E676;
 }
 
+.home-display {
+    display: none;
+}
+
 .navTrigger {
     display: none;
 }
@@ -126,22 +123,28 @@ h2 {
 }
 
 #home .home-text  {
+    background-color: #08022b77;
     position: absolute;
-    top: 25%;
-    right: 10%;
-    width: 40%; 
-}
-
-#home .home-text .hero-text {
-    font-size: 1.8vw;
+    top: 15%;
+    right: 15%;
+    width: 30%; 
     color: #fff;
+    border-radius: 20px;
+    border: solid 1px #fff;
     text-align: center;
 }
 
-#home .home-text .hero-text-2 {
+ .hero-text {
+    font-size: 2.3vw;
+}
+
+.hero-text-1 {
+    font-size: 1.6vw;
+}
+
+.hero-text-2 {
     font-size: 1.6vw;
     color: #26a9e0;
-    text-align: center;
 }
 
 /* ABOUT SECTION */
@@ -707,6 +710,10 @@ div input, textarea {
 
 @media (max-width: 1200px) {
 
+    .team-name, .nav div.main_list ul li a {
+        font-size: 2.2rem;
+    }
+
     .card {
          width: 30rem;
      }
@@ -719,16 +726,16 @@ div input, textarea {
     }
 
     #home .home-text  {
-        top: 20%;
-        right: 1%;
-        width: 60%;
+        top: 12%;
+        right: 10%;
+        width: 40%;
     }
     
-    #home .home-text .hero-text {
-        font-size: 2.5vw;
+    .hero-text {
+        font-size: 3vw;
     }
-    
-    #home .home-text .hero-text-2 {
+
+    .hero-text-1, .hero-text-2 {
         font-size: 2.2vw;
     }
 
@@ -756,21 +763,25 @@ div input, textarea {
         display: none;
     }
 
+    .home-display {
+        display: block;
+    }
+
     .myH2 {
         font-size: 3rem;
     }
 
     #home .home-text  {
-        top: 20%;
-        right: 1%;
-        width: 60%;
+        top: 12%;
+        right: 10%;
+        width: 45%;
     }
     
-    #home .home-text .hero-text {
-        font-size: 3vw;
+    .hero-text {
+        font-size: 3.5vw;
     }
     
-    #home .home-text .hero-text-2 {
+    .hero-text-1, .hero-text-2 {
         font-size: 2.5vw;
     }
 
@@ -898,18 +909,22 @@ div input, textarea {
 
 @media (max-width: 500px) {
 
+    .nav div.main_list ul li a {
+        font-size: 2.5rem;
+    }
+
     #home .home-text  {
-        top: 20%;
-        right: 1%;
-        width: 70%;
+        top: 12%;
+        right: 5%;
+        width: 62%;
     }
     
-    #home .home-text .hero-text {
+    .hero-text {
+        font-size: 4.5vw;
+    }
+    
+    .hero-text-1, .hero-text-2 {
         font-size: 3.5vw;
-    }
-    
-    #home .home-text .hero-text-2 {
-        font-size:3vw;
     }
 
     .myH2 {
@@ -949,10 +964,6 @@ div input, textarea {
         width: 95%;
         margin: 8% 5%;
       }
-
-      .nav div.main_list ul li a {
-        font-size: 2.5rem;
-    }
 
 }
     
