@@ -62,7 +62,7 @@ h2 {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #26a9e0; /*#00E676*/
 }
 
 .nav div.main_list {
@@ -94,7 +94,7 @@ h2 {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #26a9e0;
 }
 
 .home-display {
@@ -123,11 +123,12 @@ h2 {
 }
 
 #home .home-text  {
-    background-color: #08022b77;
+    background-color: #08022b77; /* #08022b77 */
     position: absolute;
-    top: 15%;
+    top: 13%;
     right: 15%;
     width: 30%; 
+    padding-top: .5rem;
     color: #fff;
     border-radius: 20px;
     border: solid 1px #fff;
@@ -189,13 +190,13 @@ h2 {
 }
   
 .flip-card-container {
-    width: 210px;
-    margin: 40px;
+    width: 21rem;
+    margin: 4rem;
     perspective: 1000px;
 }
 
 .card-object {
-    height: 35vh;
+    height: 30vh;
     transform-style: preserve-3d;
 }
 
@@ -503,7 +504,7 @@ a:hover .title-wrapper {
     border-radius: 0 10px 10px 0;
   }
 
-  #contact .contact-links h2 {
+  #contact .contact-links h3 {
     color: #fff;
     font-size: clamp(20px, 4vw, 40px);
     letter-spacing: 2px;
@@ -540,28 +541,7 @@ a:hover .title-wrapper {
     background: #faaf3f;
     color: #212529;
 }
-  /*
-  #contact img {
-    width: 45px;
-    height: 45px;
-    filter: 
-      hue-rotate(220deg)
-      drop-shadow(2px 4px 4px #0006);
-    transition: 0.2s;
-    user-select: none;
-  }
-  
-  #contact img:hover {
-    transform: scale(1.1, 1.1);
-  }
-  
-  #contact img:active {
-    transform: scale(1.1, 1.1);
-    filter: 
-      hue-rotate(220deg)
-      drop-shadow(2px 4px 4px #222)
-      sepia(0.3);
-  }*/
+
   
   .form-item {
     position: relative;
@@ -602,10 +582,9 @@ a:hover .title-wrapper {
   }
   
   .submit-btn {
-    background-color: #fd917e;
+    background-color: #26a9e0;
     filter: drop-shadow(2px 2px 3px #0003);
     color: #fff;
-    font-family: "Poppins",sans-serif;
     font-size: clamp(16px, 1.6vw, 18px);
     display: block;
     padding: 12px 20px;
@@ -618,6 +597,8 @@ a:hover .title-wrapper {
   }
   
   .submit-btn:hover {
+    background-color: #faaf3f;
+    color: #000;
     transform: scale(1.1, 1.1);
   }
   
@@ -714,6 +695,12 @@ div input, textarea {
         font-size: 2.2rem;
     }
 
+    #home .home-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .card {
          width: 30rem;
      }
@@ -726,9 +713,12 @@ div input, textarea {
     }
 
     #home .home-text  {
-        top: 12%;
-        right: 10%;
-        width: 40%;
+       /* top: 12%;
+        right: 10%;*/
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 43%;
     }
     
     .hero-text {
@@ -772,9 +762,12 @@ div input, textarea {
     }
 
     #home .home-text  {
-        top: 12%;
-        right: 10%;
-        width: 45%;
+       /*top: 12%;
+        right: 10%;*/
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 47%;
     }
     
     .hero-text {
@@ -879,11 +872,13 @@ div input, textarea {
     .nav div.show_list {
         height: auto;
         display: none;
+        border-radius: 10px;
+        border: solid 1px #fff;
     }
     .nav div.main_list ul {
         flex-direction: column;
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         right: 0;
         left: 0;
         bottom: 0;
@@ -914,9 +909,12 @@ div input, textarea {
     }
 
     #home .home-text  {
-        top: 12%;
-        right: 5%;
-        width: 62%;
+        /*top: 12%;
+        right: 5%;*/
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
     }
     
     .hero-text {
