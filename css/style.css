@@ -123,10 +123,13 @@ h2 {
 }
 
 #home .home-text  {
-    background-color: #08022b77; /* #08022b77 */
+    background-color: #00000077; /* #08022b77 */
     position: absolute;
     top: 13%;
-    right: 15%;
+    right: 20%;
+    /*top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
     width: 30%; 
     padding-top: .5rem;
     color: #fff;
@@ -136,15 +139,15 @@ h2 {
 }
 
  .hero-text {
-    font-size: 2.3vw;
+    font-size: 2vw;
 }
-
+/*
 .hero-text-1 {
-    font-size: 1.6vw;
-}
+    font-size: 1.4vw;
+}*/
 
-.hero-text-2 {
-    font-size: 1.6vw;
+.hero-text-1, .hero-text-2 {
+    font-size: 1.4vw;
     color: #26a9e0;
 }
 
@@ -287,7 +290,7 @@ h2 {
     position: relative;
     width: 100%;
     text-transform: uppercase;
-    font-size: 1.3vw;
+    font-size: 2.5rem;/*1.3vw;*/
     line-height: 1;
     opacity: 1;
     transition: opacity 0.2s ease;
@@ -306,7 +309,7 @@ h2 {
 }
 
 .face.front .title-wrapper .subtitle {
-    font-size: 0.9vw;
+    font-size: 1.4rem;
     line-height: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -352,7 +355,7 @@ a:hover .title-wrapper {
 }
 
 .info-text {
-    font-size: 1.3vw;
+    font-size: 2.2rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -609,84 +612,6 @@ a:hover .title-wrapper {
 
 
 
-
-
-
-
-
-
-  /*
-.contact-links, .contact-form-wrapper {
-    width: 100%;
-    height: auto;
-    padding: 8% 5% 10% 5%;
-}*/
-
-
-/*
-div .link {
-    display: inline;
-    align-items: center;
-}
-  
-  
-.contact-links {
-    background-color: #1f2e43;
-    background:
-      radial-gradient(
-        circle at 55% 92%, #426691 0 12%, transparent 12.2%
-      ), 
-      radial-gradient(
-        circle at 94% 72%, #426691 0 10%, transparent 10.2%
-      ), 
-      radial-gradient(
-        circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%
-      ), 
-      radial-gradient(
-        circle at 0% 0%, #263a53 0 40%, transparent 40.2%
-      ), 
-      #1f2e43;
-    border-radius: 10px 0 0 10px;
-}*/
-
-/*
-.link i {
-    width: 4rem;
-    height: 4rem;
-    padding: 1.2rem 0rem;
-    border-radius: 50%;
-    font-size: 2rem;
-    line-height: 1.5rem;
-    text-align: center;
-    color: #F8F9FA;
-    background: #26a9e0;
-    transition: all 0.35s ease-in-out;
-}
-
-.link i:hover {
-    background: #faaf3f;
-    color: #212529;
-}*/
-
-
-
-
-  /*
-.contact-form-wrapper {
-    background-color: #ffffffbb;
-    border-radius: 10px 10px 10px 10px;
-    color: #000;
-}
-
-div label, button {
-    font-size: 1.5rem;
-}
-
-div input, textarea {
-      width: 80%;
-}*/
-
-
 /* Media query section */
 
 @media (max-width: 1200px) {
@@ -729,17 +654,6 @@ div input, textarea {
         font-size: 2.2vw;
     }
 
-    .face.front .title-wrapper .title {
-        font-size: 2.2vw;
-    }
-
-    .face.front .title-wrapper .subtitle {
-        font-size: 1.3vw;
-    }
-
-    .info-text {
-        font-size: 2vw;
-    }
 }
 
 @media (max-width: 768px) {
@@ -781,14 +695,7 @@ div input, textarea {
     .about-img {
         display: contents;
     }
-/*
-    .cards-wrapper {
-        /* position: relative;*/
-        /* list-style: none;*/
-        /* display: flex;
-         flex-wrap: wrap;
-    }*/
-     
+  
     .card-object {
         height: 25vh;
         width: auto;
@@ -796,15 +703,15 @@ div input, textarea {
     }
      
     .face.front .title-wrapper .title {
-        font-size: 2.8vw;
+        font-size: 1.8rem;
     }
 
     .face.front .title-wrapper .subtitle {
-        font-size: 1.8vw;
+        font-size: 1.2rem;
     }
 
     .info-text {
-        font-size: 2.8vw;
+        font-size: 1.7rem;
     }
 /*
     .back .info-wrapper {
@@ -837,26 +744,6 @@ div input, textarea {
         padding: 2.5rem 0 2.5rem;
       }
     
-
-    /*
-
-    .contact-links {
-        border-radius: 10px 10px 0 0;
-    }
-
-    .contact-form-wrapper {
-        border-radius: 0 0 10px 10px;
-    }*/
-
-    
- 
- 
-/*
- .contact-links, .contact-form-wrapper {
-     width: 80%;
-}*/
-
-
 
     .navTrigger {
         display: block;
@@ -933,18 +820,6 @@ div input, textarea {
         font-size: 1.6rem;
     }
 
-    .face.front .title-wrapper .title {
-        font-size: 4vw;
-    }
-
-    .face.front .title-wrapper .subtitle {
-        font-size: 2.5vw;
-    }
-
-    .info-text {
-        font-size: 4vw;
-    }
-
     .sponsor-layout {
         padding-top: 1rem;
     }
@@ -964,20 +839,6 @@ div input, textarea {
       }
 
 }
-    
-
-
-
-
-
-
-    /*
-    .contact-links, .contact-form-wrapper {
-        height: auto;
-    }*/
-
-
-
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
@@ -1175,5 +1036,3 @@ div input, textarea {
     padding: 0;
     background-color: #000;
 }
-
-/*test*/
