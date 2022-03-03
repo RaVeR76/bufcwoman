@@ -1,3 +1,4 @@
+// NAVBAR 
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     console.log("Clicked menu");
@@ -14,11 +15,8 @@ $('.nav-close').click(function () {
 
 });
 
-
-
 //TRAINING CARDS
-
-var $cards = $('.card-object'),
+let $cards = $('.card-object'),
     $faceButtons = $('.face');
 
 $faceButtons.on('click', flipCard);
@@ -26,7 +24,7 @@ $faceButtons.on('click', flipCard);
 function flipCard(event) {
   event.preventDefault();
   
-  var $btnFace = $(this),
+  let $btnFace = $(this),
       $card = $btnFace.parent('.card-object');
   
   if( $card.hasClass('flip-in') ) {
