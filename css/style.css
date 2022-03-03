@@ -118,7 +118,7 @@ h2 {
 #home .home-text  {
     background-color: #00000077; /* #08022b77 */
     position: absolute;
-    top: 13%;
+    top: 15%;
     right: 20%;
     /*top: 70%;
     left: 50%;
@@ -168,8 +168,8 @@ h2 {
 /* TRAINING SECTION */
 
 #training {
-    background: linear-gradient(0deg,rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
-   /* background-image: url("../img/training-image.jpg");*/
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
+   /* background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
     background-position: center top;
     background-size:cover;
     background-attachment: fixed;
@@ -674,7 +674,7 @@ position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 47%;
+        width: 50%;
     }
     
     .hero-text {
