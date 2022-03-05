@@ -17,10 +17,6 @@ body {
     padding-top: 70px;
 }
 
-h2 {
-    font-family: "Roboto Serif", sans-serif;
-}
-
 .myH2 {
     font-family: "Roboto Serif", sans-serif;
     font-weight: 600;
@@ -97,10 +93,6 @@ h2 {
     color: #26a9e0;
 }
 
-.home-display {
-    display: none;
-}
-
 .navTrigger {
     display: none;
 }
@@ -118,11 +110,11 @@ h2 {
 #home .home-text  {
     background-color: #00000077; /* #08022b77 */
     position: absolute;
-    top: 15%;
-    right: 20%;
-    /*top: 70%;
+   /* top: 15%;
+    right: 20%;*/
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
     width: 30%; 
     padding-top: .5rem;
     color: #fff;
@@ -151,28 +143,22 @@ h2 {
 } 
 
 .about-text, .about-text p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: justify;
 }
 
 .about-img {
-    height: 55vh;
-    opacity: 0.8;
-}
-
-.about-img:hover {
-    opacity: 1;
-    transition: opacity 3s ease-in-out;
+    height: 45vh;
 }
 
 /* TRAINING SECTION */
 
 #training {
     background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
-   /* background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
+    /*background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
     background-position: center top;
     background-size:cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     color: #fff;
 }
 
@@ -610,8 +596,8 @@ position: relative;
     }
 
     #home .home-text {
-        top: 50%;
-        left: 50%;
+       /* top: 50%;
+        left: 50%;*/
         transform: translate(-50%, -50%);
     }
 
@@ -633,8 +619,8 @@ position: relative;
     #home .home-text  {
        /* top: 12%;
         right: 10%;*/
-        top: 50%;
-        left: 50%;
+       /* top: 50%;
+        left: 50%;*/
         transform: translate(-50%, -50%);
         width: 43%;
     }
@@ -664,15 +650,9 @@ position: relative;
         display: none;
     }
 
-    .home-display {
-        display: block;
-    }
-
     #home .home-text  {
        /*top: 12%;
         right: 10%;*/
-        top: 50%;
-        left: 50%;
         transform: translate(-50%, -50%);
         width: 50%;
     }
@@ -787,10 +767,6 @@ position: relative;
     }
 
     #home .home-text  {
-        /*top: 12%;
-        right: 5%;*/
-        top: 50%;
-        left: 50%;
         transform: translate(-50%, -50%);
         width: 65%;
     }
@@ -828,6 +804,17 @@ position: relative;
         width: 95%;
         margin: 8% 5%;
       }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    #home .home-text {
+        top: 15%;
+        right: 20%;
+        transform: none;
+    }
 
 }
 
