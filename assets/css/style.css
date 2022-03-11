@@ -54,7 +54,7 @@ body {
 }
 
 .nav div.logo a .logo-size {
-    height: 40px;
+    height: 4rem;
 }
 
 .nav div.logo a:hover {
@@ -148,7 +148,7 @@ body {
 }
 
 .about-img {
-    height: 45vh;
+    height: 45rem;
 }
 
 /* TRAINING SECTION */
