@@ -410,7 +410,7 @@ a:hover .title-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .card {
    /* height: auto;*/
@@ -446,23 +446,22 @@ a:hover .title-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
+}
   
   .contact-box {
     width: clamp(100px, 90%, 1000px);
     margin: 80px 50px;
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
-  .contact-links, .contact-form-wrapper {
+.contact-links, .contact-form-wrapper {
     width: 50%;
     padding: 8% 5% 10% 5%;
-  }
+}
   
   
-  .contact-links {
+.contact-links {
     background-color: #1f2e43;
     background:
       radial-gradient(
@@ -479,34 +478,34 @@ a:hover .title-wrapper {
       ), 
       #1f2e43;
     border-radius: 10px 0 0 10px;
-  }
+}
   
-  .contact-form-wrapper {
+.contact-form-wrapper {
     background-color: #ffffff8f;
     border-radius: 0 10px 10px 0;
-  }
+}
 
-  #contact .contact-links h3 {
+#contact .contact-links h3 {
     color: #fff;
     font-size: clamp(20px, 4vw, 40px);
     letter-spacing: 2px;
     text-align: center;
     transform: scale(.95, 1);
-  }
+}
   
-  .links {
+.links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 50px;
-  }
+}
   
-  .link {
+.link {
     margin: 10px;
     cursor: pointer;
-  }
+}
 
-  .link i {
+.link i {
     width: 4rem;
     height: 4rem;
     padding: 1.3rem 0 0 1px;
@@ -526,11 +525,11 @@ a:hover .title-wrapper {
 
   
 .form-item {
-position: relative;
+    position: relative;
 }
 
   
-  label {
+label {
     position: absolute;
     top: 10px;
     left: 2%;
@@ -538,9 +537,9 @@ position: relative;
     font-size: clamp(14px, 1.5vw, 18px);
     pointer-events: none;
     user-select: none;
-  }
+}
   
-  input, textarea {
+input, textarea {
     width: 100%;
     outline: 0;
     border: 1px solid #ccc;
@@ -548,19 +547,19 @@ position: relative;
     margin-bottom: 20px;
     padding: 12px;
     font-size: clamp(15px, 1.5vw, 18px);
-  }
+}
   
-  input:focus+label, 
-  input:valid+label, 
-  textarea:focus+label, 
-  textarea:valid+label {
+input:focus+label, 
+input:valid+label, 
+textarea:focus+label, 
+textarea:valid+label {
     font-size: clamp(13px, 1.3vw, 16px);
     color: #000;
     top: -20px;
     transition: all .225s ease;
-  }
+}
   
-  .submit-btn {
+.submit-btn {
     background-color: #26a9e0;
     filter: drop-shadow(2px 2px 3px #0003);
     color: #fff;
@@ -572,20 +571,19 @@ position: relative;
     border-radius: 4px;
     cursor: pointer;
     user-select: none;
-    transition: 0.2s;
-  }
+    transition: all 0.35s ease-in-out;
+}
   
-  .submit-btn:hover {
+.submit-btn:hover {
     background-color: #faaf3f;
     color: #000;
     transform: scale(1.1, 1.1);
-  }
+}
   
-  .submit-btn:active {
+.submit-btn:active {
     transform: scale(1.1, 1.1);
     filter: sepia(0.5);
-  }
-
+}
 
 
 /* Media query section */
@@ -608,7 +606,7 @@ position: relative;
 
     .card {
          width: 30rem;
-     }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -700,40 +698,43 @@ position: relative;
         padding: 2rem;
     }
 
-
     .contact-links, .contact-form-wrapper {
         width: 100%;
-      }
+    }
       
-      .contact-links {
+    .contact-links {
         border-radius: 10px 10px 0 0;
-      }
+    }
       
-      .contact-form-wrapper {
+    .contact-form-wrapper {
         border-radius: 0 0 10px 10px;
-      }
+    }
 
-      .links {
+    .links {
         padding: 2.5rem 0 2.5rem;
-      }
+    }
     
     .navTrigger {
         display: block;
     }
+
     .nav div.logo {
         margin-left: 15px;
     }
+
     .nav div.main_list {
         width: 100%;
         height: 0;
         overflow: hidden;
     }
+
     .nav div.show_list {
         height: auto;
         display: none;
         border-radius: 10px;
         border: solid 1px #fff;
     }
+
     .nav div.main_list ul {
         flex-direction: column;
         width: 100%;
@@ -745,16 +746,19 @@ position: relative;
         /*same background color of navbar*/
         background-position: center top;
     }
+
     .nav div.main_list ul li {
         width: 100%;
         text-align: right;
     }
+
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
         font-size: 3rem;
         padding: 20px;
     }
+
     .nav div.media_button {
         display: block;
     }
@@ -801,7 +805,7 @@ position: relative;
 
     .card {
         /* height: auto;*/
-         width: 25rem;
+        width: 25rem;
     }
 
     .card a img {
