@@ -102,7 +102,7 @@ body {
 #home {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/hero-image.jpg");
+    background-image: url("/assets/img/hero-image.jpg");
     background-position: center top;
 	background-size:cover;
 }
@@ -154,7 +154,7 @@ body {
 /* TRAINING SECTION */
 
 #training {
-    background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
     /*background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
     background-position: center center;
     background-size:cover;
@@ -435,7 +435,7 @@ a:hover .title-wrapper {
     /*background: linear-gradient(0deg,rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/outdoor-pitch.jpg"); */ /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
     background-color: #70C6EB;
     /*background-color: hsl(198, 75%, 70%);*/
-    background-image: url("../img/adidas-football.jpg");
+    background-image: url("/assets/img/adidas-football.jpg");
     background-position: center top;
     background-size:cover;
     color: #fff;
@@ -790,7 +790,7 @@ position: relative;
 
     #training {
         /*background-image: url("../img/training-image-mob.jpg");*/
-        background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image-mob.jpg");
+        background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../assets/img/training-image-mob.jpg");
         background-position: center left;
         background-size:cover;
     }
