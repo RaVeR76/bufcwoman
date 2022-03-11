@@ -156,7 +156,7 @@ body {
 #training {
     background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
     /*background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
-    background-position: center top;
+    background-position: center center;
     background-size:cover;
     /*background-attachment: fixed;*/
     color: #fff;
@@ -219,7 +219,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    transform: rotateX(0deg); /* Added for Mozilla as back-face visability isn't working */
+    -webkit-backface-visibility: hidden; /*Safari Webkit*/
             backface-visibility: hidden;
 }
 
@@ -785,6 +786,13 @@ position: relative;
 
     .about-text, .about-text p {
         font-size: 1.6rem;
+    }
+
+    #training {
+        /*background-image: url("../img/flood-lights.jpg");
+        background-position: center center;
+        background-size:cover;*/
+        /*background-attachment: fixed;*/
     }
 
     .sponsor-layout {
