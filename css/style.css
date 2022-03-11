@@ -789,10 +789,10 @@ position: relative;
     }
 
     #training {
-        /*background-image: url("../img/flood-lights.jpg");
-        background-position: center center;
-        background-size:cover;*/
-        /*background-attachment: fixed;*/
+        /*background-image: url("../img/training-image-mob.jpg");*/
+        background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../img/training-image-mob.jpg");
+        background-position: center left;
+        background-size:cover;
     }
 
     .sponsor-layout {
