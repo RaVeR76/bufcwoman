@@ -794,7 +794,7 @@ textarea:valid+label {
 
     #training {
         /*background-image: url("../img/training-image-mob.jpg");*/
-        background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("../assets/img/training-image-mob.jpg");
+        background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/training-image-mob.jpg");
         background-position: center left;
         background-size:cover;
     }
