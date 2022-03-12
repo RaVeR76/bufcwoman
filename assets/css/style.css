@@ -108,10 +108,8 @@ body {
 }
 
 #home .home-text  {
-    background-color: #00000077; /* #08022b77 */
+    background-color: #00000077;
     position: absolute;
-   /* top: 15%;
-    right: 20%;*/
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -121,6 +119,37 @@ body {
     border-radius: 2rem;
     border: solid 1px #faaf3f;
     text-align: center;
+
+    animation: fadeIn 8s;
+        -webkit-animation: fadeIn 8s;
+        -moz-animation: fadeIn 8s;
+        -o-animation: fadeIn 8s;
+        -ms-animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
  .hero-text {
@@ -154,11 +183,9 @@ body {
 /* TRAINING SECTION */
 
 #training {
-    background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/training-image.jpg"); /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
-    /*background-image: url("../img/training-image.jpg");*/ /*rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)*/
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/training-image.jpg");
     background-position: center center;
     background-size:cover;
-    /*background-attachment: fixed;*/
     color: #fff;
 }
 
@@ -269,7 +296,7 @@ body {
     position: relative;
     width: 100%;
     text-transform: uppercase;
-    font-size: 2.5rem;/*1.3vw;*/
+    font-size: 2.5rem;
     line-height: 1;
     opacity: 1;
     transition: opacity 0.2s ease;
@@ -400,8 +427,8 @@ a:hover .title-wrapper {
 /* SPONSORS SECTION */
 
 #sponsors {
-    background: linear-gradient(0deg, rgba(38, 169, 224), rgba(255, 255, 255, 0.9)); /* rgba(8,15,31,1), rgba(255, 255, 255, 1) */
-    /*background: #26a9e033;*/
+    background: #26a9e033;
+    background: linear-gradient(0deg, rgba(38, 169, 224), rgba(255, 255, 255, 0.9));
 }
 
 .sponsor-layout {
@@ -413,7 +440,6 @@ a:hover .title-wrapper {
 }
 
 .card {
-   /* height: auto;*/
     width: 35rem;
     border-radius:2rem;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -432,9 +458,7 @@ a:hover .title-wrapper {
 /* CONTACT SECTION */
 
 #contact {
-    /*background: linear-gradient(0deg,rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658)), url("../img/outdoor-pitch.jpg"); */ /*  rgba(0, 255, 234, 0.411), rgba(0, 255, 242, 0.658) */
     background-color: #70C6EB;
-    /*background-color: hsl(198, 75%, 70%);*/
     background-image: url("/assets/img/adidas-football.jpg");
     background-position: center top;
     background-size:cover;
@@ -448,7 +472,7 @@ a:hover .title-wrapper {
     align-items: center;
 }
   
-  .contact-box {
+.contact-box {
     width: clamp(10rem, 90%, 100rem);
     margin: 8rem 5rem;
     display: flex;
@@ -459,7 +483,6 @@ a:hover .title-wrapper {
     width: 50%;
     padding: 8% 5% 10% 5%;
 }
-  
   
 .contact-links {
     background-color: #1f2e43;
@@ -523,12 +546,10 @@ a:hover .title-wrapper {
     color: #212529;
 }
 
-  
 .form-item {
     position: relative;
 }
 
-  
 label {
     position: absolute;
     top: 1rem;
@@ -595,8 +616,6 @@ textarea:valid+label {
     }
 
     #home .home-text {
-       /* top: 50%;
-        left: 50%;*/
         transform: translate(-50%, -50%);
     }
 
@@ -620,10 +639,6 @@ textarea:valid+label {
     }
 
     #home .home-text  {
-       /* top: 12%;
-        right: 10%;*/
-       /* top: 50%;
-        left: 50%;*/
         transform: translate(-50%, -50%);
         width: 43%;
     }
@@ -654,8 +669,6 @@ textarea:valid+label {
     }
 
     #home .home-text  {
-       /*top: 12%;
-        right: 10%;*/
         transform: translate(-50%, -50%);
         width: 50%;
     }
@@ -679,7 +692,6 @@ textarea:valid+label {
     .card-object {
         height: 20rem;
         width: auto;
-       /* align-items: center;*/
     }
      
     .face.front .title-wrapper .title {
@@ -747,7 +759,6 @@ textarea:valid+label {
         left: 0;
         bottom: 0;
         background-color: #000;
-        /*same background color of navbar*/
         background-position: center top;
         overflow: auto;
     }
@@ -778,15 +789,15 @@ textarea:valid+label {
 
     #home .home-text  {
         transform: translate(-50%, -50%);
-        width: 65%;
+        width: 75%;
     }
     
     .hero-text {
-        font-size: 4.5vw;
+        font-size: 5.5vw;
     }
     
     .hero-text-sm {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .myH2 {
@@ -798,7 +809,6 @@ textarea:valid+label {
     }
 
     #training {
-        /*background-image: url("../img/training-image-mob.jpg");*/
         background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/training-image-mob.jpg");
         background-position: center left;
         background-size:cover;
@@ -809,7 +819,6 @@ textarea:valid+label {
     }
 
     .card {
-        /* height: auto;*/
         width: 25rem;
     }
 
@@ -820,7 +829,7 @@ textarea:valid+label {
     .contact-box {
         width: 95%;
         margin: 8% 5%;
-      }
+    }
 
 }
 

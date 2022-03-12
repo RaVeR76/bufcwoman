@@ -145,6 +145,7 @@ Anyway, you can have a wee look at my wireframes below:
 * Match schedules for the month or year, as per age group
 * Star player or players for each match, as per age group
 * Payment method for paying annual fees and weekly dues
+* A footer with designer link & any other required info
 
 
 ## **Testing**
