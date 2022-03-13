@@ -1,6 +1,6 @@
 # **Ballymena United FC Women**
 
-*Hero Image Here*
+![Ballymena United FC Women Website Display](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/readme-hero.png)
 
 ## **Goal for this project**
 
@@ -253,13 +253,16 @@ Anyway, you can have a wee look at my wireframes below:
 
 ### **Validation Checks**
 
-All my HTML passed all the checks at [W3C HTML Validation Service](https://validator.w3.org/) with only a few errors which were related to having p elements inside a span for my hero page welcome text.  
+All my HTML passed all the checks at [W3C HTML Validation Service](https://validator.w3.org/) with only a few errors which were related to having p elements inside a span for my hero page welcome text and one warning because I wasn't using a header in my hero section.  
+Below is my code before validation alerted me to the issues.  
 ![HTML Code Before Validation](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/code-before-val.png)  
+Below is all the errors my HTML validation threw up.  
 ![HTML Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/html-val-errors.png)  
 
-I then did a few code changes to eliminate these errors.  
-![HTML Code After Validation Corrections](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/code-after-val.png)  
-![HTML Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/html-val-no-errors.png)  
+I then did a few code changes to eliminate these errors. Below is my code after I fixed the validation issues.  
+![HTML Code After Validation Corrections](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/code-after-val.png)   
+Below is my HTML validation after fixes were applied.  
+![HTML Validation Results After Fixes Applied](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/html-val-no-errors.png)  
 
 
 
