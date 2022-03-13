@@ -32,11 +32,12 @@ I hope you enjoy this project :)
 
 ### **User Stories**
 
-* As a user I want to be able to visit the website and see what the football club is all about
-* As a user I want see when training takes place and on what days
-* As a user I want to be able to contact the club by email or phone
-* As a user I want to know who the sponsors are, that support the club
-* As a user I want to be able to connect to the clubs Facebook page
+* As a user, I want to enjoy a aesthetically pleasing website which is easy to navigate around
+* As a user, I want to be able to visit the website and see what the football club is all about
+* As a user, I want see when training takes place and on what days
+* As a user, I want to be able to contact the club by email or phone
+* As a user, I want to know who the sponsors are, that support the club
+* As a user, I want to be able to connect to the clubs Facebook page
 
 ### **Site Owner Goals**
 
@@ -170,19 +171,54 @@ Anyway, you can have a wee look at my wireframes below:
 ## **Testing**
 ---
 
+### Ease Of Use
+
+#### User Story : I want to enjoy a aesthetically pleasing website which is easy to navigate around
+
+* **Plan**  
+Although this website was going to be fairly simple, I still wanted to create a uniqueness and eye catching experience within each section. 
+I wanted each section to be just high enough for the screen and the scrolling behaviour to be smooth.
+
+* **Implementation**  
+I extracted the main colours of the site from the club crest at the start of the project so I have tried my best to utilise these throughout the website which I think adds continunity. The navbar link hover colour is the crest blue, as is the social links and send button in the contact section which also change colour to the yellow orange when hovered over. The Hero welcome text has blue and white, the background has a yellow orange border which is also from the clubs crest (the wee towers). I also faded the background from white to blue in the Sponsors section too.
+
+* **Test**   
+As the website progressed I could see that making small changes to use the same colours worked well and kept unity. The smooth scrolling works well in Chrome, Firefox, Edge but it doesn't work in Safari .... it just jumps instantly to the selected section but it still looks and works well.
+I also had a fixed background for the training section which worked really well across all platforms even Safari but it wouldn't work on Ios. On an Iphone the Training section  background was a zoomed in section of the image so was all pixelated and looked awful. That's why I was gutted as it looked so good on the rest of the devices, with the cards scrolling on past the fixed background but in the end there was no real easy fix so I just removed the ```background-attachment: fixed;```.
+All links work well and navigate the user to the chosen section of the website. The Sponsor links and the Contact social links all work well. 
+
+* **Result**  
+Overall, fairly happy with the small aesthetic adjustments. I was annoyed at the Training background issue but I still think it works well.
+
+* **Verdict**
+Very happy with the overall look of the website. It displays the basic info and meets the requirements that was asked for, at the start of the project.
+
+
+
 ### What's It All About?
 
 #### User Story : As a user I want to be able to visit the website and see what the football club is all about
 
 * **Plan**  
+The plan was simple .... add an About section giving a simple overview of the club.
 
 * **Implementation**  
+I asked Mark for some information about the club and he gave me a snippet from the Clubs Handbook. 
+The hero image welcoming message was also at the start of the information he gave me.
+I split the information up and added the welcome note to the Hero image just to add a little special touch on arrival.
+The rest of the information is displayed on the left hand side of x-large screens whilst the Clubs Crest is displayed on the right.
+As the screen gets smaller the clubs information moves on top of the clubs crest for large screens and when it gets to small tablet and mobile sizes, I remove the clubs crest altogether.
+I added the Clubs Crest for larger screens because with just the information text, it looked boring and empty.
+It is a faded background of White to Sky Blue, as this would have a connection to the clubs kit colours as well. I didn't want to use the Clubs Crest blue here as the Crest is on display.
 
 * **Test**   
+I think this section works well and the information gets displayed as required. The Clubs Crest disappears on small tablet and mobile screens displaying just the information which works well. I reduce the font size as the screens get smaller to. I change the fade from 'left to right' to 'top to bottom' on small tablets and mobile screens because it looks much better.
 
-* **Result**  
+* **Result**
+Overall, I am pleasantly pleased with the overall outcome and visual appearance. All we required was a little bit about the club to be there for a potential player to know about the club. Responsiveness works well too.
 
 * **Verdict**
+Simple section which works well and tells the user a little bit about the club.
 
 
 ### Training Times
