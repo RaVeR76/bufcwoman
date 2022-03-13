@@ -90,7 +90,7 @@ The only one I am a little wary off is the Yellow Orange as it may not look too 
 
 Below is an image of the chosen colours .....
 
-![BUFC Women Colours](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/colour-scheme.png)
+![BUFC Women Colours](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/colour-scheme2.png)
 
 So a better breakdown of the colours are shown below:
 
@@ -99,7 +99,7 @@ So a better breakdown of the colours are shown below:
 |***White***           |#FFFFFF    |White              |Body background, text & titles  |
 |***Cyan Process***    |#26a9e0    |Sky Blue           |Body background                 |
 |***Yellow Orange***   |#faaf3f    |Light Orange       |Body background                 |
-|***Eerie Black***     |#000000    |Black              |Body background, text & titles  |
+|***Black***           |#000000    |Black              |Body background, text & titles  |
 
 
 
