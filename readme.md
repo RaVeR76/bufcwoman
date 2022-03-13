@@ -35,7 +35,7 @@ I hope you enjoy this project :)
 * As a user I want to be able to visit the website and see what the football club is all about
 * As a user I want see when training takes place and on what days
 * As a user I want to be able to contact the club by email or phone
-* As a user I want to know who the sponsors are that support the club
+* As a user I want to know who the sponsors are, that support the club
 * As a user I want to be able to connect to the clubs Facebook page
 
 ### **Site Owner Goals**
@@ -72,11 +72,7 @@ I hope you enjoy this project :)
 
 For my fonts, I am going to use [Google Fonts](https://fonts.google.com/) as my source of inspiration.  
 I have went with the same combination for my first ever website as it was a one page scrolling site too and the fonts looked so good on the screen. 
-The fonts are [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) for the main text and [Lato](https://fonts.google.com/specimen/Lato) for titles and section headings.
-
-Below is an example of my fonts where the title is in Lato and the text is in Titillium Web .....
-
-![BUFC Women Fonts](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/fonts-example.png)
+The fonts are [Titillium Web](https://fonts.google.com/specimen/Titillium+Web) for the main text and [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif) for titles and section headings.
 
 
 #### Icons
@@ -103,7 +99,7 @@ So a better breakdown of the colours are shown below:
 |***White***           |#FFFFFF    |White              |Body background, text & titles  |
 |***Cyan Process***    |#26a9e0    |Sky Blue           |Body background                 |
 |***Yellow Orange***   |#faaf3f    |Light Orange       |Body background                 |
-|***Eerie Black***     |#262626    |Off Black          |Body background, text & titles  |
+|***Eerie Black***     |#000000    |Black              |Body background, text & titles  |
 
 
 
@@ -148,19 +144,242 @@ Anyway, you can have a wee look at my wireframes below:
 * A footer with designer link & any other required info
 
 
+## **Technologies Utilised**
+---
+
+### **Languages**
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS) 
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
+
+### **Tools and Libraries**
+
+- [VS Code](https://code.visualstudio.com/)
+- [Git](https://en.wikipedia.org/wiki/Git) 
+- [GitHub](https://github.com/)
+- [jQuery](https://jquery.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+
+
+
 ## **Testing**
 ---
+
+### What's It All About?
+
+#### User Story : As a user I want to be able to visit the website and see what the football club is all about
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**   
+
+* **Result**  
+
+* **Verdict**
+
+
+### Training Times
+
+#### User Story : As a user I want see when training takes place and on what days
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**   
+
+* **Result**  
+
+* **Verdict**
+
+
+
+### Contact
+
+#### User Story : As a user I want to be able to contact the club by email or phone
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**   
+
+* **Result**  
+
+* **Verdict**
+
+
+
+### Club Sponsors
+
+#### User Story : As a user I want to know who the sponsors are, that support the club
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**   
+
+* **Result**  
+
+* **Verdict**
+
+
+
+### Facebook Link
+
+#### User Story : As a user I want to be able to connect to the clubs Facebook page
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**   
+
+* **Result**  
+
+* **Verdict**
+
+
+
+
+
+### **Validation Checks**
+
+All my HTML passed all the checks at [W3C HTML Validation Service](https://validator.w3.org/) with only a few errors which were related to having p elements inside a span for my hero page welcome text.  
+![HTML Code Before Validation](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/code-before-val.png)  
+![HTML Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/html-val-errors.png)  
+
+I then did a few code changes to eliminate these errors.  
+![HTML Code After Validation Corrections](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/code-after-val.png)  
+![HTML Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/html-val-no-errors.png)  
+
+
+
+All my CSS passed all checks at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) with no major errors and only a few warnings, which were all to do with **webkits** issues.  
+![CSS Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/css-validation.png)
+
 
 
 ## **Bugs**
 ---
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+### **Bug Title**
+
+* **Bug**
+
+* **Fix**
+
+* **Verdict**
+
+
+
+
+
+Title Offset by 65px
+
+
+Mozilla Training card backface visability not working 
+(https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari)
+
+
+
+
+
 
 
 ## **Deployment**
 ---
 ### Local Deployment
 
+Use Live-Server
+
+Once deployed to Netlify 
+
 ### Live Deployment 
+
+Deployed to Netlify
+First time so see how it goes, still on the steep learning curve
+
 
 ## **Conclusion**
 ---
@@ -171,7 +390,24 @@ Anyway, you can have a wee look at my wireframes below:
 
 **Code Credits**
 
+Navbar - Main code utilised from [here](https://codepen.io/albizan/pen/mMWdWZ)
+
+Hero Text Fade In - (Code taken from [here](https://blog.hubspot.com/website/css-fade-in) for simple fade in  effect
+
+Training Times Animated Cards - I got the code from this [Source Of Inspiration](https://codepen.io/anatravas/pen/qqbBeJ) but stripped it back to make it suit my projects design 
+
+Contact Form - Code taken from [here](https://codepen.io/lina994/pen/zYdbwBP) and slightly modified to suit
+
 **Image Credits**
+
+Hero Image - 
+
+Club Crest & Sponsors - Mark Livingstone
+
+Training Background Image - [Photo by Donnycocacola on Unsplash](https://unsplash.com/photos/-3pxa1O1zoI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+Contact Background Image - [Photo by Janosch Diggelmann on Unsplash](https://unsplash.com/photos/Ept2Na00VGY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
 
 **Other Credits**
 

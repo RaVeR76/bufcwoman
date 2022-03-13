@@ -114,7 +114,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30%; 
-    padding-top: 0.5rem;
+    padding: 1.5rem 0;
     color: #fff;
     border-radius: 2rem;
     border: solid 1px #faaf3f;
@@ -152,8 +152,13 @@ body {
     100% {opacity:1;}
 }
 
- .hero-text {
-    font-size: 2vw;
+.label {
+    position: relative;
+    display: block;
+}
+
+.hero-text {
+    font-size: 2.2vw;
 }
 
 .hero-text-sm {
@@ -648,7 +653,7 @@ textarea:valid+label {
     }
 
     .hero-text-sm {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
 }
@@ -678,7 +683,7 @@ textarea:valid+label {
     }
     
     .hero-text-sm {
-        font-size: 2.5vw;
+        font-size: 2.3vw;
     }
 
     #about {
@@ -797,7 +802,7 @@ textarea:valid+label {
     }
     
     .hero-text-sm {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     .myH2 {
