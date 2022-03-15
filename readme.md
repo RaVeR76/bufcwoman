@@ -420,6 +420,9 @@ Deployed to Netlify
 First time so see how it goes, still on the steep learning curve
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be64df1c-8c8f-469a-ac71-68e32d2e938d/deploy-status)](https://app.netlify.com/sites/pedantic-jang-5a0987/deploys)
+
+
 ## **Conclusion**
 ---
 

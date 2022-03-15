@@ -551,6 +551,10 @@ a:hover .title-wrapper {
     color: #212529;
 }
 
+.form-item-hidden {
+    display: none;
+}
+
 .form-item {
     position: relative;
 }
