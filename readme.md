@@ -1,5 +1,7 @@
 # **Ballymena United FC Women**
 
+*Welcome to* **Ballymena United FC Women**, *the home of girls' and women's football*
+
 ![Ballymena United FC Women Website Display](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/readme-hero.png)
 
 ## **Goal for this project**
@@ -12,7 +14,6 @@ This is my first solo project after completing my studies so I want to develop t
 I want to make my home town womans football team proud and encourage the girls or women of all ages to sign up, develop their skills and most importantly .... play some football !!!
 
 I hope you enjoy this project :)
-
 
 ## Table of contents
 
