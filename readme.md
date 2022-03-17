@@ -6,12 +6,12 @@
 
 ## **Goal for this project**
 
-The main aim for this project is to display some information and contact details for my home towns local womans football team - **Ballymena United FC Women**.  
+The main aim for this project is to display some information and contact details for my home towns local girls' and women's football team - **Ballymena United FC Women**.  
 The website will be fairly simple where users can visit for relevant information associated with the club. 
 This is all that is required at present and will possibly evolve in the future, depending on requirements.
 
 This is my first solo project after completing my studies so I want to develop this website to the best of my ability.
-I want to make my home town womans football team proud and encourage the girls or women of all ages to sign up, develop their skills and most importantly .... play some football !!!
+I want to make my home town women's football team proud and encourage the girls or women of all ages to sign up, develop their skills and most importantly .... play some football !!!
 
 I hope you enjoy this project :)
 
@@ -227,15 +227,24 @@ Simple section which works well and tells the user a little bit about the club.
 #### User Story : As a user I want see when training takes place and on what days
 
 * **Plan**  
+I hadn't anything special planned for this section beforehand other than somewhere to display training times and whatever day this happened.
+I was basically given a email with a few times Monday to Friday.
 
 * **Implementation**  
+My first instinct was to put these on cards some way, as just having them just on the screen seemed too boring and hard to fill the section.
+I googled cool card displays and searched through some amazing sites until I came across the cards and animation credited in my README Credits. 
+As you can see the cards look completely different but perform the same animation. Obviously I didn't want cats on a football themed website ha ha so I removed the images. I tried adding my own football images which I have to say some looked really awesome, I actually saved the code to some of the cards I designed that I didn't use, for possible future projects. These just didn't fit the section and when I found the *training times* background image in Unsplash, I knew instantly that this was going to be the background. I added some white to blue fade across it to try keep within the websites colour scheme and I think it works quite well. The original image works well too but I just thought the darkness of it was too much of a contrast change when moving from the *About* section to the *Sponsors* section.  
+So back to the cards as I had now designed the background of the section. Like I said above, I stripped the cards back and added the basic info required. No cat images on the front, only the age group for that card. When you hover over the card, the age display moves up and training times appears where both fonts turn green. I tried the blue form the navbar here but I thuink the green looks cool. To be honest this green colour was the original colour I got with the navbar code but I changed it to the Crest Blue as it keeps within the theme better.   
+Once the user selects the age group the card flips over to display the day & time / times for the chosen age group. The animation for the flipping of the cards only allows one card to be flipped at once and when another card is selected they both flip in opposite directions which I think makes the card flip animation so cool. I did have some responsive and font issues getting this section correct but I thunk it looks class.
 
 * **Test**   
+The training times and days are displayed for each age group. Obviously, the user needs to flip the card to see ha ha. When you hover over the card a little animation makes it look even better. When the card is selected it flips over 180 degrees to display the day and time. If the user selects another card both flip over leaving the selected card times displayed.
 
 * **Result**  
+Overall, I think the background image along with the card design and the card animations, this section looks awesome. I would say it's my favorite along with the contact section but they all look cool too.
 
 * **Verdict**
-
+This section works well within the overall feel of the website and what the section is about. The background image is girls training at night under the floodlights which I blued a wee bit lol, and the individual age training times get displayed in a nice interactive way for the user. It kind of reminds me of a Card version of amazing desk toy Newtons Craddle :)
 
 
 ### Contact
@@ -274,7 +283,10 @@ Simple section which works well and tells the user a little bit about the club.
 
 #### User Story : As a user I want to be able to connect to the clubs Facebook page
 
-* **Plan**  
+* **Plan**
+
+
+NAVBAR STORY MAYBE
 
 * **Implementation**  
 
