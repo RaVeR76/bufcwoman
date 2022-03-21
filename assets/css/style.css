@@ -169,6 +169,7 @@ body {
 /* ABOUT SECTION */
 
 #about {
+    background: #26a9e033;
     background: linear-gradient(270deg, rgba(38, 169, 224, 0.411), rgba(255, 255, 255, 0.9));
 }
 

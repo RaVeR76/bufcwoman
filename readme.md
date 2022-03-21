@@ -181,12 +181,13 @@ Although this website was going to be fairly simple, I still wanted to create a 
 I wanted each section to be just high enough for the screen and the scrolling behaviour to be smooth.
 
 * **Implementation**  
+My first step was a decent Navbar for the esy navigation purposes so I looked at the Bootstrap navbar and tried it to see. I had used this before on my wee course projects so knew it worked well. It looked okay but for me it just didn't have that ***Je Ne Sais Quoi*** that I desired. I searched for some cool Navbars and came across [this](https://codepen.io/albizan/pen/mMWdWZ) in Codepen from Albi. Now, I loved this on first sight and still do to be honest but I had to make a few wee changes to make it work with my website design. I changed the background colour to pure black when the user starts to scroll down. I love the fact the links are just sitting there at the top of my hero image then when you start to scroll the background appears. On the original the Nav links are lower then move up but I removed this as it made the link sit over one of the girls head. Realistically, the two girls should have space above them but I didn't take the hero image pics and this was the second time I had asked for some as the first weren't great quality. This was another lesson learnt to be fair as I had real annoyance trying to get the Hero Image to work but I think it turned out good in the end. I originally had the Clubs Crest as the navbar logo with *Ballymena United FC Women* added afterwards. When I added the Hero Image welcoming text it looked too much having this twice on the screen, so I removed it and added BUFC with the crest in the middle and women the other side. I think it looks really cool now and I remove the text when the screens get smaller leaving just the Crest as the Navbar logo. I also added the scrolling-behaviour as smooth, for a nice calm effect between sections.  
 I extracted the main colours of the site from the club crest at the start of the project so I have tried my best to utilise these throughout the website which I think adds continunity. The navbar link hover colour is the crest blue, as is the social links and send button in the contact section which also change colour to the yellow orange when hovered over. The Hero welcome text has blue and white, the background has a yellow orange border which is also from the clubs crest (the wee towers). I also faded the background from white to blue in the Sponsors section too.
 
 * **Test**   
 As the website progressed I could see that making small changes to use the same colours worked well and kept unity. The smooth scrolling works well in Chrome, Firefox, Edge but it doesn't work in Safari .... it just jumps instantly to the selected section but it still looks and works well.
-I also had a fixed background for the training section which worked really well across all platforms even Safari but it wouldn't work on Ios. On an Iphone the Training section  background was a zoomed in section of the image so was all pixelated and looked awful. That's why I was gutted as it looked so good on the rest of the devices, with the cards scrolling on past the fixed background but in the end there was no real easy fix so I just removed the ```background-attachment: fixed;```.
-All links work well and navigate the user to the chosen section of the website. The Sponsor links and the Contact social links all work well. 
+I also had a fixed background for the training section which worked really well across all platforms even Safari but it wouldn't work on IOS. On an Iphone the Training section  background was a zoomed in section of the image so was all pixelated and looked awful. That's why I was gutted as it looked so good on the rest of the devices, with the cards scrolling on past the fixed background but in the end there was no real easy fix so I just removed the ```background-attachment: fixed;```.
+All navbar links work well and navigate the user to the chosen section of the website. The Sponsor links and the Contact social links all work well. 
 
 * **Result**  
 Overall, fairly happy with the small aesthetic adjustments. I was annoyed at the Training background issue but I still think it works well.
@@ -210,7 +211,7 @@ I split the information up and added the welcome note to the Hero image just to 
 The rest of the information is displayed on the left hand side of x-large screens whilst the Clubs Crest is displayed on the right.
 As the screen gets smaller the clubs information moves on top of the clubs crest for large screens and when it gets to small tablet and mobile sizes, I remove the clubs crest altogether.
 I added the Clubs Crest for larger screens because with just the information text, it looked boring and empty.
-It is a faded background of White to Sky Blue, as this would have a connection to the clubs kit colours as well. I didn't want to use the Clubs Crest blue here as the Crest is on display.
+It has a faded background of White to Sky Blue but from left to right on larger screens and top to bottom on smaller screens, plus this would have a connection to the clubs kit colours as well. I didn't want to use the Clubs Crest blue here as the Crest is on display.
 
 * **Test**   
 I think this section works well and the information gets displayed as required. The Clubs Crest disappears on small tablet and mobile screens displaying just the information which works well. I reduce the font size as the screens get smaller to. I change the fade from 'left to right' to 'top to bottom' on small tablets and mobile screens because it looks much better.
@@ -228,7 +229,7 @@ Simple section which works well and tells the user a little bit about the club.
 
 * **Plan**  
 I hadn't anything special planned for this section beforehand other than somewhere to display training times and whatever day this happened.
-I was basically given a email with a few times Monday to Friday.
+I was basically sent an email with a few times Monday to Friday.
 
 * **Implementation**  
 My first instinct was to put these on cards some way, as just having them just on the screen seemed too boring and hard to fill the section.
@@ -259,14 +260,17 @@ The club had an old website built through [Pitchero](https://www.pitchero.com/) 
 * **Implementation**  
 Firstly I trawled the internet for some cool contact forms and I have to say there are some very clever and beautifully designed Contact Form out there. 
 I tried a few out first before I found .... THE ONE !!! I didn't realise you could search [Codepen](https://codepen.io/) for Contact Forms or anything like that, I had only used it for testing small snippets of code myself or when clicking on another coders explanation of an issue I had.  
-Anyways, I did a search within Codepen and came up with some awesome Contact Forms [here](https://codepen.io/tag/contact-form). You can see that the one I utilised is on the first page ha ha but I did search through the various pages and try a few others first before I settled on the one by Alina. I tweaked the code a little changing the social icons using Font Awesome instead of web image links, adding the proper social links and changing styles to suit. I used the Club Crest blue again with the icons white and the clubs orange with icons black when hovering. I did this for the send button too, to keep the continunity across this section. I also had the background blue as it was in the original code by Alina. Personally I though this was too bland for this section as the previous section the Sponsors section had a plain background at that time. I knew I had downloaded a few free football related images from Unsplash so tried the Adidas football on the grass image for the background and I swear .... I couldn't believe how much it changed this section. It worked so well with the contact form, the various dark blues in the Contact social side of the form blended in with the image sky blueness, not sure if this is a word but you know what I mean lol. The ball is positioned behind the form on all screen sizes, with the transparancy of the message side allowing it to show through for that added wee touch. 
+Anyways, I did a search within Codepen and came up with some awesome Contact Forms [here](https://codepen.io/tag/contact-form). You can see that the one I utilised is on the first page ha ha but I did search through the various pages and try a few others first before I settled on the one by Alina. I tweaked the code a little changing the social icons using Font Awesome instead of web image links, adding the proper social / email links and changing styles to suit. I used the Club Crest blue again with the icons white and the clubs orange with icons black when hovering. I did this for the send button too, to keep the continunity across this section. I also had the background blue as it was in the original code by Alina. Personally I though this was too bland for this section as the previous section the Sponsors section had a plain background at that time. I knew I had downloaded a few free football related images from Unsplash so tried the Adidas football on the grass image for the background and I swear .... I couldn't believe how much it changed this section. It worked so well with the contact form, the various dark blues in the Contact social side of the form blended in with the image sky blueness, not sure if this is a word but you know what I mean lol. The ball is positioned behind the form on all screen sizes, with the transparancy of the message side allowing it to show through for that added wee touch. 
 
 * **Test**  
-During design phase I used [Formsubmit](https://formsubmit.co/) to test the functionality of my Contact Form message inputs. This worked very well and allowed me to test that the inputs and everything was functioning as it should. Once I had finished the website I used [Netlify](https://www.netlify.com/) to deploy it and then I utilised their built in form handling to look after any forms. Once I read the documentation and added the required Netlify code to my form, it was good to test. It worked very well and I was able to see the messages in my Netlify account. I then linked my personal email so that each send message would be sent onto this as I knew this would be the way I would set up the Clubs email address for receiving the messages. Again, it all worked perfectly and I was super pleased with the testing of the messages. I even added the Netlify **HoneyPot** code which allows me to add a hidden input field which a **BOT** will not know is hidden and proceed to fill out. This will be picked up by Netlify who will block and disregard this message and therefore protect the website from spam bots. 
+During design phase I used [Formsubmit](https://formsubmit.co/) to test the functionality of my Contact Form message inputs. This worked very well and allowed me to test that the inputs and everything was functioning as it should. Once I had finished the website I used [Netlify](https://www.netlify.com/) to deploy it and then I utilised their built in form handling to look after any forms sent. Once I read the documentation and added the required Netlify code to my form, it was good to test. It worked very well and I was able to see the messages in my Netlify account. I then linked my personal email so that each send message would be sent onto this as I knew this would be the way I would set up the Clubs email address for receiving the messages. Again, it all worked perfectly and I was super pleased with the testing of the messages. I even added the Netlify **HoneyPot** code which allows me to add a hidden input field which a **BOT** will not know is hidden and proceed to fill out. This will be picked up by Netlify who will block and disregard this message and therefore protect the website from spam bots.  
+As regards the social links and email, when you hover over the icon it turns orange and when the user clicks on the icon it will take them to the required page on another tab. The email will open the users default email method and pre-populate the **To:** input with the clubs email address.
 
 * **Result**  
+All the various testing above passed and the Contact form works really well. It has all the requirements for contacting the club, that are available, on display and functioning well. 
 
-* **Verdict**
+* **Verdict**  
+Super happy with how this turned out and it looks amazing in my opinion :) The Clubs colours are there and change on hover for a nice added touch. It's responsive too and looks well across all platforms. It's deffo up there with the Training Time section as my favourite sections of the website.
 
 
 
@@ -275,14 +279,19 @@ During design phase I used [Formsubmit](https://formsubmit.co/) to test the func
 #### User Story : As a user I want to know who the sponsors are, that support the club
 
 * **Plan**  
+The club have three main sponsors so I needed a section were I could display these and add links to their associated websites or Facebook page. I didn't need anything to extravigant for this section so I kept it simple and to the point.
 
 * **Implementation**  
+Mark had given me the Sponsors logos in *PNG* format so that was a great start. I knew I was going to use Bootstrap 5 cards for these as I had used these on my last Course project, [The Kicks Fix](https://raver76-the-kicks-fix.herokuapp.com/), for displaying kick images and info. Only I didn't require any info just the Sponsor logos but needed to add the links etc. The logos were all different sizes so I needed to edit these to get them all to the same size for *unity* purposes. Once I completed this then I just added the Bootstrap card code and tweaked to suit. I added a little CSS to make the Sponsor cards **jump out** so to speak when the user hovers over the card. I added a border and some shadow for better effects and I think it all works well. I added a linear-gradient of the colour white to again the Clubs Crest colour blue (two of my selected colours at the start of planning). I also added a backup background colour of Sky Blue, in case *linear-gradient* doesn't work on some platforms.
 
-* **Test**   
+* **Test**  
+Not much to test here as it's a fairly basic section. The cards get larger by 10% when hovered over and when the card is clicked on, the Sponsors website or Facebook page open on a different tab within the users browser.
 
 * **Result**  
+This section works well and displays the Clubs Sponsors so the user knows who invests in the club.  
 
-* **Verdict**
+* **Verdict**  
+Although this section may not have exoticness of the Training Times or Contact sections, I am still really happy with the overall look & feel of it.
 
 
 
@@ -290,18 +299,20 @@ During design phase I used [Formsubmit](https://formsubmit.co/) to test the func
 
 #### User Story : As a user I want to be able to connect to the clubs Facebook page
 
-* **Plan**
-
-
-NAVBAR STORY MAYBE
+* **Plan**  
+I was originally just going to have a Facebook link along with maybe some other club associated links within a footer but when I found that Contact Form, I knew I could add it here. As a coder sometimes your original plans change but generally for the better as so in this case. I love the Contact form so much as it covers everything for the Club.
 
 * **Implementation**  
+Added to the Contact forms Social section along with various other connections.
 
-* **Test**   
+* **Test** 
+Facebook icon looks well, as do the others, and link connects the user to the Clubs Facebook page.
 
 * **Result**  
+The icon changes colour on hover for a lovely effect and the link works.
 
-* **Verdict**
+* **Verdict**  
+The user can connect to the Clubs Facebook page with one click so happy with that.
 
 
 
@@ -445,6 +456,10 @@ First time so see how it goes, still on the steep learning curve
 
 ## **Conclusion**
 ---
+
+Hero Image issues - Had to blur out the pitch lights along the back
+
+
 
 
 ## **Credits**
