@@ -341,99 +341,94 @@ All my CSS passed all checks at [W3C CSS Validation Service](https://jigsaw.w3.o
 ## **Bugs**
 ---
 
-### **Bug Title**
+### **About Text Looks So Narrow On Smaller Screens**
 
-* **Bug**
+* **Bug**  
+The About Section text was very narrow and squeezed, on the smaller mobile screen views.
 
-* **Fix**
+* **Fix**  
+I added Bootstrap responsive padding at certain breakpoints to cover this issue.
 
-* **Verdict**
-
-
-### **Bug Title**
-
-* **Bug**
-
-* **Fix**
-
-* **Verdict**
+* **Verdict**  
+I needed padding for medium to xx-large size screens to make it look good but no padding on screen sizes below medium.
+I think the Bootstrap responsive padding works well. I tried just adding responsive zero padding for small and extra small screen sizes but this made all screen sizes have zero padding which is why I had to use ```p-xxl-5 p-xl-5 p-lg-5 p-md-5``` and leave the smaller ones out.
+Overall though it works the way I wanted it to so I am happy.
 
 
-### **Bug Title**
+### **Contact Form Responsiveness**
 
-* **Bug**
+* **Bug**  
+When I first tried using this Contact Form code I didn't add the media queries as I wanted to use the Bootstrap grid. I seperated the the two Contact Form sections into columns and used Bootstrap to align them together. It all looked good on larger screens but as the screen size got smaller the two columns kept overlapping and I could not figure out why. I tried and I tried again ha ha, various different Bootstrap methods to get this Contact Form to work but in the end I had to give up, I had already wasted so much time trying to get this to work unfortunately. 
 
-* **Fix**
+* **Fix**  
+I deleted the Contact Form code I was trying and started again, using the media queries that came with the original code but only I used my media query setpoints instead of the original. 
 
-* **Verdict**
-
-
-### **Bug Title**
-
-* **Bug**
-
-* **Fix**
-
-* **Verdict**
+* **Verdict**  
+After the pain of trying to make this work using the Bootstrap grid, columns and breakpoints then resorting back to the original code and media queries. I am super happy with the Contact section and it's responsiveness across all screen sizes.
 
 
-### **Bug Title**
+### **Firefox Training Section Flip Cards Not Working Properly**  
 
-* **Bug**
+* **Bug**  
+In the Firefox browser and within the training section, the flipped cards were showing the front face overlapping the flipped over backface which obviously wasn't going to work. I had a similar problem with one of my Course projects on the Safari browser so I had a fair idea what the issue was.
 
-* **Fix**
+* **Fix**  
+I tried adding the ```-moz-``` prefix but it changed nothing. I read online that it used to work on previous versions but on the newer ones, it has stopped working again. Anyway, I added ```transform: rotateX(0deg);``` to the *face class* which I sourced [here](https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari) and that sorted it.
 
-* **Verdict**
-
-
-### **Bug Title**
-
-* **Bug**
-
-* **Fix**
-
-* **Verdict**
+* **Verdict**  
+This was the only bug for Mozilla Firefox so I was very happy to find the solution and it works the same as all browsers now.
 
 
-### **Bug Title**
+### **Fixed Background Image Not Working On iOS**
 
-* **Bug**
+* **Bug**  
+While I had my wee website looking beautiful on my Windows laptop and my Android mobile, both using Google Chrome, not all was as beautiful when testing on other browsers ha ha but this what makes you a better coder tbh. For my Training Section I had a the image fixed so when you scrolled down past it, it didn't move but the cards and all did. This feature I loved and it really added to my website plus I think it looks super cool.
+Unfortunately, I had no Apple products whatsoever so testing was really hard for me in this situation. I had to get my sister to bring her iPhone and my brother to bring his Macbook so I could see how the website looked, which was a pain in the butt to be honest but had to be done.  
+The Training Times section looked good on the Macbook with the image fixed but on the iPhone the image was fixed okay but it was like a small zoomed in part of the overall image and very pixelated. This definitely would **NOT** do as it looked so bad !
 
-* **Fix**
+* **Fix**  
+I searched the internet but could find no real easy way to fix this bug. There were apparent solutions which I tried but none of them worked. There were loads of similar questions and a lot of dismayed coders out there, that Apple have not fixed this on iOS but it works on Macs. In the end I had to give up and just remove the ```background-attachment: fixed;``` from the Training Times background image. This still gave me a small headache as the image was still a little *zoomed in* on small and extra small screen sizes compared to medium and anything larger. Again, I tried to look for a fix for this but there was none. Don't get me wrong it still looks okay as I made sure the girl in the training image was in the center for smaller screens.
 
-* **Verdict**
-
-
-### **Bug Title**
-
-* **Bug**
-
-* **Fix**
-
-* **Verdict**
+* **Verdict**  
+Super disappointed that I had to remove this as I think it's an amazing effect that adds to your website but I couldn't have iPhone users thinking .... what the fxck is that in the background. Hopefully, the geniuses at Apple can add this to their iOS Safari version at some point in the future and then I will go back and add it again.
 
 
-### **Bug Title**
+### **No Scrolling In Safari**
 
-* **Bug**
+* **Bug**  
+When testing my website within the Safari browser on both Mac and iPhones, I noticed that the smooth scrolling effect when you click a link on the Navbar was not working. When the user clicks on a navbar link, the chosen section just appears without any scrolling whatsoever !
+I've just noticed during writing this up that whilst the scrolling effect works in Firefox and Edge .... they are not scrolling **smoothly** like in Chrome so I'll have to look into this at a later date.
 
-* **Fix**
+* **Fix**  
+There is no fix or at least I could not find one anywhere
 
-* **Verdict**
-
-
-
-
-
-Title Offset by 65px
+* **Verdict**  
+Whilst the scrolling effect not working in Safari doesn't really change how the overall website looks, it's still a nice feature to have.
 
 
-Mozilla Training card backface visability not working 
-(https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari)
+### **Navbar List Font Too Large On Small Landscape Views**
+
+* **Bug**  
+When I looked at the Navbar list on smaller screens but in landscape view, the font size was too large and the bootom links disappeared off the bottom of the screen. There was no way of accessing the lower links as they were off the screen.
+
+* **Fix**  
+I made the font smaller, from 3rem to 2.5rem and I also added an auto scroll too for extra security.
+
+* **Verdict**  
+It's so hard to find solutions for all screen sizes on either orientation. Whilst the website looks awesome on larger screens for landscape, on smaller screens it may look a little larger than usual but it's more suited to portrait mode on smaller devices. Again, I will deffo put this down to experince on my behalf as I often struggle with this but I believe I am getting better.  
+Anyway, the bug was fixed for this issue and I am happy with the outcome.
 
 
+### **Don't Test Using An Old iPad**
 
+* **Bug**  
+Unfortunately, I own no Apple products whatsoever so testing was really hard for me in this situation. I knew my mum had an old iPad (iPad2) that she never used so I asked her for it and factory reset it so I could set it up for myself. Once I got through this then I was able to look at my website and I near crapped myself at all the issues. The Home text opacity was zero and transparent, the Sponsor section background colours weren't displaying, the Contact Form message side background was transparent and the Contact Form font was super small. I was like .... NO WAY so before I dived in and started to fix these I gave my sister a call and asked her to drop in on way home from work the next day with her iPhone. The issues mentioned were okay on her iPhone so I am assuming it was because my mums iPad was so old (iPad2) and had a outdated Safari version on it. I was a lot happier when I seen the website on my sister iPhone ha ha.
 
+* **Fix**  
+No fixes required here, just a change of underwear :)
+
+* **Verdict**  
+I may need to invest in some Apple products so that I have method of testing code, without hassling my big sis and big bro !
 
 
 
@@ -458,6 +453,8 @@ First time so see how it goes, still on the steep learning curve
 ---
 
 Hero Image issues - Had to blur out the pitch lights along the back
+I use Google chrome to build my website but when I try it on other browsers issues start to arise
+Not too many major bugs 
 
 
 
