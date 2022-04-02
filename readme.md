@@ -456,6 +456,8 @@ Hero Image issues - Had to blur out the pitch lights along the back
 I use Google chrome to build my website but when I try it on other browsers issues start to arise
 Not too many major bugs 
 
+Add diagnostics images before & after using PageSpeed Insights
+
 
 
 
