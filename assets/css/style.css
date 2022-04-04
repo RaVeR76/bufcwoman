@@ -120,12 +120,12 @@ body {
     border-radius: 2rem;
     border: solid 1px #faaf3f;
     text-align: center;
-
+/*
     animation: fadeIn 8s;
         -webkit-animation: fadeIn 8s;
         -moz-animation: fadeIn 8s;
         -o-animation: fadeIn 8s;
-        -ms-animation: fadeIn 8s;
+        -ms-animation: fadeIn 8s;*/
 }
 
 @keyframes fadeIn {
