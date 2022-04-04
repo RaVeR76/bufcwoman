@@ -120,12 +120,12 @@ body {
     border-radius: 2rem;
     border: solid 1px #faaf3f;
     text-align: center;
-/*
+
     animation: fadeIn 8s;
         -webkit-animation: fadeIn 8s;
         -moz-animation: fadeIn 8s;
         -o-animation: fadeIn 8s;
-        -ms-animation: fadeIn 8s;*/
+        -ms-animation: fadeIn 8s;
 }
 
 @keyframes fadeIn {
@@ -833,6 +833,10 @@ textarea:valid+label {
         background: linear-gradient(0deg,rgba(255, 255, 255, 0.5), rgba(4, 174, 253, 0.9)), url("/assets/img/webp/training-image-mob.webp");
         background-position: center left;
         background-size:cover;
+    }
+
+    .card-object {
+        height: 17rem;
     }
 
     .sponsor-layout {
