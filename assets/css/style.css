@@ -800,6 +800,13 @@ textarea:valid+label {
         font-size: 2.5rem;
     }
 
+    #home {
+        background: url("/assets/img/jpg/hero-image-mob.jpg");
+        background: url("/assets/img/webp/hero-image-mob.webp");
+        background-position: center top;
+        background-size:cover;
+    }
+
     #home .home-text  {
         transform: translate(-50%, -50%);
         width: 75%;
@@ -838,6 +845,13 @@ textarea:valid+label {
 
     .card a img {
         padding: 1rem;
+    }
+
+    #contact {
+        background: url("/assets/img/jpg/adidas-football-mob.jpg") #70C6EB;
+        background: url("/assets/img/webp/adidas-football-mob.webp") #70C6EB;
+        background-position: center top;
+        background-size:cover;
     }
 
     .contact-box {
