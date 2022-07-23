@@ -360,8 +360,6 @@ The user can connect to the Clubs Facebook page with one click so happy with tha
 
 
 
-
-
 ### **Validation Checks**
 
 All my HTML passed all the checks at [W3C HTML Validation Service](https://validator.w3.org/) with only a few errors which were related to having p elements inside a span for my hero page welcome text and one warning because I wasn't using a header in my hero section.  
