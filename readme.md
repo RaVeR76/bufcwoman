@@ -17,7 +17,57 @@ I hope you enjoy this project :)
 
 ## Table of contents
 
-*TOC goes here*
+- [**Ballymena United FC Women**](#--ballymena-united-fc-women--)
+  * [**Goal for this project**](#--goal-for-this-project--)
+  * [**Table of contents**](#table-of-contents)
+  * [**UX**](#--ux--)
+    + [**User Goals**](#--user-goals--)
+    + [**User Stories**](#--user-stories--)
+    + [**Site Owner Goals**](#--site-owner-goals--)
+    + [**User Requirements and Expectations**](#--user-requirements-and-expectations--)
+      - [Requirements](#requirements)
+      - [Expectations](#expectations)
+    + [**Design Choices**](#--design-choices--)
+      - [Fonts](#fonts)
+      - [Icons](#icons)
+      - [Colours](#colours)
+  * [**Wireframes**](#--wireframes--)
+      - [Mobile Wireframes](#mobile-wireframes)
+      - [Tablet Wireframes](#tablet-wireframes)
+      - [Desktop Wireframes](#desktop-wireframes)
+  * [**Features**](#--features--)
+    + [Existing Features](#--existing-features--)
+    + [Features To Be Implemented](#--features-to-be-implemented--)
+  * [**Technologies Utilised**](#--technologies-utilised--)
+    + [Languages](#--languages--)
+    + [Tools and Libraries](#--tools-and-libraries--)
+  * [**Testing**](#--testing--)
+    + [Ease Of Use](#ease-of-use)
+      - [User Story : I want to enjoy a aesthetically pleasing website which is easy to navigate around](#user-story---i-want-to-enjoy-a-aesthetically-pleasing-website-which-is-easy-to-navigate-around)
+    + [What's It All About?](#what-s-it-all-about-)
+      - [User Story : As a user I want to be able to visit the website and see what the football club is all about](#user-story---as-a-user-i-want-to-be-able-to-visit-the-website-and-see-what-the-football-club-is-all-about)
+    + [Training Times](#training-times)
+      - [User Story : As a user I want see when training takes place and on what days](#user-story---as-a-user-i-want-see-when-training-takes-place-and-on-what-days)
+    + [Contact](#contact)
+      - [User Story : As a user I want to be able to contact the club by email or phone](#user-story---as-a-user-i-want-to-be-able-to-contact-the-club-by-email-or-phone)
+    + [Club Sponsors](#club-sponsors)
+      - [User Story : As a user I want to know who the sponsors are, that support the club](#user-story---as-a-user-i-want-to-know-who-the-sponsors-are--that-support-the-club)
+    + [Facebook Link](#facebook-link)
+      - [User Story : As a user I want to be able to connect to the clubs Facebook page](#user-story---as-a-user-i-want-to-be-able-to-connect-to-the-clubs-facebook-page)
+    + [Validation Checks](#--validation-checks--)
+  * [**Bugs**](#--bugs--)
+    + [About Text Looks So Narrow On Smaller Screens](#--about-text-looks-so-narrow-on-smaller-screens--)
+    + [Contact Form Responsiveness](#--contact-form-responsiveness--)
+    + [Firefox Training Section Flip Cards Not Working Properly](#--firefox-training-section-flip-cards-not-working-properly--)
+    + [Fixed Background Image Not Working On iOS](#--fixed-background-image-not-working-on-ios--)
+    + [No Scrolling In Safari](#--no-scrolling-in-safari--)
+    + [Navbar List Font Too Large On Small Landscape Views](#--navbar-list-font-too-large-on-small-landscape-views--)
+    + [Don't Test Using An Old iPad](#--don-t-test-using-an-old-ipad--)
+  * [**Deployment**](#--deployment--)
+    + [Local Deployment](#local-deployment)
+    + [Live Deployment](#live-deployment)
+  * [**Conclusion**](#--conclusion--)
+  * [**Credits**](#--credits--)
 
 
 ## **UX**
@@ -45,8 +95,8 @@ I hope you enjoy this project :)
 * As a site owner, I want users to visit the website and understand what the club is all about
 * As a site owner, I want girls and women to feel that joining the club is right for them
 * As a site owner, I want to help my local home town womans team attract the best talent in the local and surrounding areas
-* As a site owner, I want 
-
+* As a site owner, I want users to be able to access all the clubs contact methods and social media accounts
+* As a site owner, I want users to be able to contact me through the method of an online form
 
 
 ### **User Requirements and Expectations**
@@ -65,7 +115,7 @@ I hope you enjoy this project :)
 
 * To enjoy the website layout and navigate freely with no issues
 * A fairly simple one page site to display the basic information about the club
-* 
+* A contact form that works safely and with no issues
 
 
 ### **Design Choices**
@@ -436,31 +486,37 @@ I may need to invest in some Apple products so that I have method of testing cod
 ---
 ### Local Deployment
 
-Use Live-Server
+This was my first time using Virtual Studio Code to develop a website so it took me a little while to get it set up and to get used to things .... I'm still learning, to be honest.  
+I used **Live-Server** for local testing so I could see any changes I made work instantly. It automatically refreshes too on every save which is a cool feature.  
+I haven't really explored VS Code in depth yet so hopefully that will come over time and experience.
 
-Once deployed to Netlify 
 
 ### Live Deployment 
 
-Deployed to Netlify
-First time so see how it goes, still on the steep learning curve
+As this was my first proper website, so to speak, I needed to find a decent hosting platform.
+I did some research and asked fellow coders on Slack. There were a few static website hosting platforms that stood out but after comparing the various ones against my needs, I settled for Netlify.
+It's so straight forward to use and the help documentation available is unreal - **[Netlify Docs](https://docs.netlify.com/)**
+There is no point me duplicating what is in the documentation as it's really that easy to understand.
 
-Google Site Map Issue needs sorted
+I set up deployment through my Github account which is linked to my VS Code so everything runs smoothly.
 
+I even linked the domain name which I had bought on Google at the start of the project.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/be64df1c-8c8f-469a-ac71-68e32d2e938d/deploy-status)](https://app.netlify.com/sites/pedantic-jang-5a0987/deploys)
+You can utilise Netlifys Forms functions for form control and spam protection.
+
+Overall, I'm very pleased with Netlify as my hosting platform and will deffo use it for future static websites.
+
+I had one last issue where the website was not appearing in Google searches. After more research I realised that although I had registered the name with Google I needed to add a sitemap. I know this is basically only a one page website for displaying information and a contact form but I deffo think it helped by adding a sitemap to Google. I also asked Google to index the page so it now says that the URL is on Google.
 
 
 ## **Conclusion**
 ---
 
-Hero Image issues - Had to blur out the pitch lights along the back
-I use Google chrome to build my website but when I try it on other browsers issues start to arise
-Not too many major bugs 
+I really enjoyed designing and building this unique website for my local wee womens football team. I learned a serious amount as regards deployment on a proper hosting platform, Google searching techniques, I was on my own with this one and personally I think it turned out well. I know it's fairly simple but it's unique and I'm proud of it to be honest.
 
-Add diagnostics images before & after using PageSpeed Insights
+I encountered a few bugs as mentioned above. The hero image cause me a lot of pain to be fair. As I wasn't in control of the images I had to use what I got given. First batch was on a mobile phone so weren't that great. The second batch were proper image material but I had issues with the lightness as they were taken at night. The floodlights along the back really messed with my navbar so I had to use a blurring app to blur them out. They were too bright so over powered my nav links. I still think it works quite well overall.
 
-
+Think my next project has to be a portfolio so I can sell myself a bit better and stop being a dreamer :)
 
 
 ## **Credits**
@@ -478,7 +534,7 @@ Contact Form - Code taken from [here](https://codepen.io/lina994/pen/zYdbwBP) an
 
 **Image Credits**
 
-Hero Image - 
+Hero Image - Mark Livingston
 
 Club Crest & Sponsors - Mark Livingstone
 
