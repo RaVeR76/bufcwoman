@@ -17,57 +17,51 @@ I hope you enjoy this project :)
 
 ## Table of contents
 
-- [**Ballymena United FC Women**](#--ballymena-united-fc-women--)
-  * [**Goal for this project**](#--goal-for-this-project--)
+- [**Ballymena United FC Women**](#ballymena-united-fc-women)
+  * [**Goal for this project**](#goal-for-this-project)
   * [**Table of contents**](#table-of-contents)
-  * [**UX**](#--ux--)
-    + [**User Goals**](#--user-goals--)
-    + [**User Stories**](#--user-stories--)
-    + [**Site Owner Goals**](#--site-owner-goals--)
-    + [**User Requirements and Expectations**](#--user-requirements-and-expectations--)
-      - [Requirements](#requirements)
-      - [Expectations](#expectations)
-    + [**Design Choices**](#--design-choices--)
-      - [Fonts](#fonts)
-      - [Icons](#icons)
-      - [Colours](#colours)
+  * [**UX**](#ux)
+    + [User Goals](#user-goals)
+    + [User Stories](#user-stories)
+    + [Site Owner Goals](#site-owner-goals)
+    + [User Requirements and Expectations](#user-requirements-and-expectations)
+      - [*Requirements*](#requirements)
+      - [*Expectations*](#expectations)
+    + [Design Choices](#design-choices)
+      - [*Fonts*](#fonts)
+      - [*Icons*](#icons)
+      - [*Colours*](#colours)
   * [**Wireframes**](#wireframes)
       - [Mobile Wireframes](#mobile-wireframes)
       - [Tablet Wireframes](#tablet-wireframes)
       - [Desktop Wireframes](#desktop-wireframes)
   * [**Features**](#features)
-    + [Existing Features](#--existing-features--)
-    + [Features To Be Implemented](#--features-to-be-implemented--)
-  * [**Technologies Utilised**](#--technologies-utilised--)
-    + [Languages](#--languages--)
-    + [Tools and Libraries](#--tools-and-libraries--)
-  * [**Testing**](#--testing--)
+    + [Existing Features](#existing-features)
+    + [Features To Be Implemented](#features-to-be-implemented)
+  * [**Technologies Utilised**](#technologies-utilised)
+    + [Languages](#languages)
+    + [Tools and Libraries](#tools-and-libraries)
+  * [**Testing**](#testing)
     + [Ease Of Use](#ease-of-use)
-      - [User Story : I want to enjoy a aesthetically pleasing website which is easy to navigate around](#user-story---i-want-to-enjoy-a-aesthetically-pleasing-website-which-is-easy-to-navigate-around)
     + [What's It All About?](#what-s-it-all-about-)
-      - [User Story : As a user I want to be able to visit the website and see what the football club is all about](#user-story---as-a-user-i-want-to-be-able-to-visit-the-website-and-see-what-the-football-club-is-all-about)
     + [Training Times](#training-times)
-      - [User Story : As a user I want see when training takes place and on what days](#user-story---as-a-user-i-want-see-when-training-takes-place-and-on-what-days)
     + [Contact](#contact)
-      - [User Story : As a user I want to be able to contact the club by email or phone](#user-story---as-a-user-i-want-to-be-able-to-contact-the-club-by-email-or-phone)
     + [Club Sponsors](#club-sponsors)
-      - [User Story : As a user I want to know who the sponsors are, that support the club](#user-story---as-a-user-i-want-to-know-who-the-sponsors-are--that-support-the-club)
     + [Facebook Link](#facebook-link)
-      - [User Story : As a user I want to be able to connect to the clubs Facebook page](#user-story---as-a-user-i-want-to-be-able-to-connect-to-the-clubs-facebook-page)
-    + [Validation Checks](#--validation-checks--)
-  * [**Bugs**](#--bugs--)
-    + [About Text Looks So Narrow On Smaller Screens](#--about-text-looks-so-narrow-on-smaller-screens--)
-    + [Contact Form Responsiveness](#--contact-form-responsiveness--)
-    + [Firefox Training Section Flip Cards Not Working Properly](#--firefox-training-section-flip-cards-not-working-properly--)
-    + [Fixed Background Image Not Working On iOS](#--fixed-background-image-not-working-on-ios--)
-    + [No Scrolling In Safari](#--no-scrolling-in-safari--)
-    + [Navbar List Font Too Large On Small Landscape Views](#--navbar-list-font-too-large-on-small-landscape-views--)
-    + [Don't Test Using An Old iPad](#--don-t-test-using-an-old-ipad--)
-  * [**Deployment**](#--deployment--)
+    + [Validation Checks](#validation-checks)
+  * [**Bugs**](#bugs)
+    + [About Text Looks So Narrow On Smaller Screens](#about-text-looks-so-narrow-on-smaller-screens)
+    + [Contact Form Responsiveness](#contact-form-responsiveness)
+    + [Firefox Training Section Flip Cards Not Working Properly](#firefox-training-section-flip-cards-not-working-properly)
+    + [Fixed Background Image Not Working On iOS](#fixed-background-image-not-working-on-ios)
+    + [No Scrolling In Safari](#no-scrolling-in-safari)
+    + [Navbar List Font Too Large On Small Landscape Views](#navbar-list-font-too-large-on-small-landscape-views)
+    + [Don't Test Using An Old iPad](#don-t-test-using-an-old-ipad)
+  * [**Deployment**](#deployment)
     + [Local Deployment](#local-deployment)
     + [Live Deployment](#live-deployment)
-  * [**Conclusion**](#--conclusion--)
-  * [**Credits**](#--credits--)
+  * [**Conclusion**](#conclusion)
+  * [**Credits**](#credits)
 
 
 ## **UX**
@@ -153,7 +147,7 @@ So a better breakdown of the colours are shown below:
 |***Yellow Orange***   |#faaf3f    |Light Orange       |Body background                 |
 |***Black***           |#000000    |Black              |Body background, text & titles  |
 
-
+[Back to Top](#ballymena-united-fc-women)
 
 ## **Wireframes**
 
@@ -217,7 +211,7 @@ Anyway, you can have a wee look at my wireframes below:
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
-
+[Back to Top](#ballymena-united-fc-women)
 
 ## **Testing**
 ---
@@ -386,7 +380,7 @@ Below is my HTML validation after fixes were applied.
 All my CSS passed all checks at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) with no major errors and only a few warnings, which were all to do with **webkits** issues.  
 ![CSS Validation Results](https://github.com/RaVeR76/bufcwoman/raw/main/docs/screenshots/css-validation.png)
 
-
+[Back to Top](#ballymena-united-fc-women)
 
 ## **Bugs**
 ---
@@ -480,7 +474,7 @@ No fixes required here, just a change of underwear :)
 * **Verdict**  
 I may need to invest in some Apple products so that I have method of testing code, without hassling my big sis and big bro !
 
-
+[Back to Top](#ballymena-united-fc-women)
 
 ## **Deployment**
 ---
@@ -546,3 +540,5 @@ Contact Background Image - [Photo by Janosch Diggelmann on Unsplash](https://uns
 **Other Credits**
 
 **Special Shout Outs**
+
+[Back to Top](#ballymena-united-fc-women)
