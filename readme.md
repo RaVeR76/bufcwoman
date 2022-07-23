@@ -225,7 +225,7 @@ Although this website was going to be fairly simple, I still wanted to create a 
 I wanted each section to be just high enough for the screen and the scrolling behaviour to be smooth.
 
 * **Implementation**  
-My first step was a decent Navbar for the esy navigation purposes so I looked at the Bootstrap navbar and tried it to see. I had used this before on my wee course projects so knew it worked well. It looked okay but for me it just didn't have that ***Je Ne Sais Quoi*** that I desired. I searched for some cool Navbars and came across [this](https://codepen.io/albizan/pen/mMWdWZ) in Codepen from Albi. Now, I loved this on first sight and still do to be honest but I had to make a few wee changes to make it work with my website design. I changed the background colour to pure black when the user starts to scroll down. I love the fact the links are just sitting there at the top of my hero image then when you start to scroll the background appears. On the original the Nav links are lower then move up but I removed this as it made the link sit over one of the girls head. Realistically, the two girls should have space above them but I didn't take the hero image pics and this was the second time I had asked for some as the first weren't great quality. This was another lesson learnt to be fair as I had real annoyance trying to get the Hero Image to work but I think it turned out good in the end. I originally had the Clubs Crest as the navbar logo with *Ballymena United FC Women* added afterwards. When I added the Hero Image welcoming text it looked too much having this twice on the screen, so I removed it and added BUFC with the crest in the middle and women the other side. I think it looks really cool now and I remove the text when the screens get smaller leaving just the Crest as the Navbar logo. I also added the scrolling-behaviour as smooth, for a nice calm effect between sections.  
+My first step was a decent Navbar for the easy navigation purposes so I looked at the Bootstrap navbar and tried it to see. I had used this before on my wee course projects so knew it worked well. It looked okay but for me it just didn't have that ***Je Ne Sais Quoi*** that I desired. I searched for some cool Navbars and came across [this](https://codepen.io/albizan/pen/mMWdWZ) in Codepen from Albi. Now, I loved this on first sight and still do to be honest but I had to make a few wee changes to make it work with my website design. I changed the background colour to pure black when the user starts to scroll down. I love the fact the links are just sitting there at the top of my hero image then when you start to scroll the background appears. On the original the Nav links are lower then move up but I removed this as it made the link sit over one of the girls head. Realistically, the two girls should have space above them but I didn't take the hero image pics and this was the second time I had asked for some as the first weren't great quality. This was another lesson learnt to be fair as I had real annoyance trying to get the Hero Image to work but I think it turned out good in the end. I originally had the Clubs Crest as the navbar logo with *Ballymena United FC Women* added afterwards. When I added the Hero Image welcoming text it looked too much having this twice on the screen, so I removed it and added BUFC with the crest in the middle and women the other side. I think it looks really cool now and I remove the text when the screens get smaller leaving just the Crest as the Navbar logo. I also added the scrolling-behaviour as smooth, for a nice calm effect between sections.  
 I extracted the main colours of the site from the club crest at the start of the project so I have tried my best to utilise these throughout the website which I think adds continunity. The navbar link hover colour is the crest blue, as is the social links and send button in the contact section which also change colour to the yellow orange when hovered over. The Hero welcome text has blue and white, the background has a yellow orange border which is also from the clubs crest (the wee towers). I also faded the background from white to blue in the Sponsors section too.
 
 * **Test**   
@@ -236,7 +236,7 @@ All navbar links work well and navigate the user to the chosen section of the we
 * **Result**  
 Overall, fairly happy with the small aesthetic adjustments. I was annoyed at the Training background issue but I still think it works well.
 
-* **Verdict**
+* **Verdict**  
 Very happy with the overall look of the website. It displays the basic info and meets the requirements that was asked for, at the start of the project.
 
 
@@ -260,10 +260,10 @@ It has a faded background of White to Sky Blue but from left to right on larger 
 * **Test**   
 I think this section works well and the information gets displayed as required. The Clubs Crest disappears on small tablet and mobile screens displaying just the information which works well. I reduce the font size as the screens get smaller to. I change the fade from 'left to right' to 'top to bottom' on small tablets and mobile screens because it looks much better.
 
-* **Result**
+* **Result**  
 Overall, I am pleasantly pleased with the overall outcome and visual appearance. All we required was a little bit about the club to be there for a potential player to know about the club. Responsiveness works well too.
 
-* **Verdict**
+* **Verdict**  
 Simple section which works well and tells the user a little bit about the club.
 
 
@@ -279,16 +279,16 @@ I was basically sent an email with a few times Monday to Friday.
 My first instinct was to put these on cards some way, as just having them just on the screen seemed too boring and hard to fill the section.
 I googled cool card displays and searched through some amazing sites until I came across the cards and animation credited in my README Credits. 
 As you can see the cards look completely different but perform the same animation. Obviously I didn't want cats on a football themed website ha ha so I removed the images. I tried adding my own football images which I have to say some looked really awesome, I actually saved the code to some of the cards I designed that I didn't use, for possible future projects. These just didn't fit the section and when I found the *training times* background image in Unsplash, I knew instantly that this was going to be the background. I added some white to blue fade across it to try keep within the websites colour scheme and I think it works quite well. The original image works well too but I just thought the darkness of it was too much of a contrast change when moving from the *About* section to the *Sponsors* section.  
-So back to the cards as I had now designed the background of the section. Like I said above, I stripped the cards back and added the basic info required. No cat images on the front, only the age group for that card. When you hover over the card, the age display moves up and training times appears where both fonts turn green. I tried the blue form the navbar here but I thuink the green looks cool. To be honest this green colour was the original colour I got with the navbar code but I changed it to the Crest Blue as it keeps within the theme better.   
-Once the user selects the age group the card flips over to display the day & time / times for the chosen age group. The animation for the flipping of the cards only allows one card to be flipped at once and when another card is selected they both flip in opposite directions which I think makes the card flip animation so cool. I did have some responsive and font issues getting this section correct but I thunk it looks class.
+So back to the cards as I had now designed the background of the section. Like I said above, I stripped the cards back and added the basic info required. No cat images on the front, only the age group for that card. When you hover over the card, the age display moves up and training times appears where both fonts turn green. I tried the blue from the navbar here but I think the green looks cool. To be honest this green colour was the original colour I got with the navbar code but I changed it to the Crest Blue as it keeps within the theme better.   
+Once the user selects the age group the card flips over to display the day & time / times for the chosen age group. The animation for the flipping of the cards only allows one card to be flipped at once and when another card is selected they both flip in opposite directions which I think makes the card flip animation so cool. I did have some responsive and font issues getting this section correct but I think it looks class.
 
 * **Test**   
 The training times and days are displayed for each age group. Obviously, the user needs to flip the card to see ha ha. When you hover over the card a little animation makes it look even better. When the card is selected it flips over 180 degrees to display the day and time. If the user selects another card both flip over leaving the selected card times displayed.
 
 * **Result**  
-Overall, I think the background image along with the card design and the card animations, this section looks awesome. I would say it's my favorite along with the contact section but they all look cool too.
+Overall, I think the background image along with the card design and the card animations, this section looks awesome. I would say it's my favourite along with the contact section but they all look cool too.
 
-* **Verdict**
+* **Verdict**  
 This section works well within the overall feel of the website and what the section is about. The background image is girls training at night under the floodlights which I blued a wee bit lol, and the individual age training times get displayed in a nice interactive way for the user. It kind of reminds me of a Card version of amazing desk toy Newtons Craddle :)
 
 
@@ -349,7 +349,7 @@ I was originally just going to have a Facebook link along with maybe some other 
 * **Implementation**  
 Added to the Contact forms Social section along with various other connections.
 
-* **Test** 
+* **Test**  
 Facebook icon looks well, as do the others, and link connects the user to the Clubs Facebook page.
 
 * **Result**  
@@ -540,5 +540,11 @@ Contact Background Image - [Photo by Janosch Diggelmann on Unsplash](https://uns
 **Other Credits**
 
 **Special Shout Outs**
+
+One person knows who they are xo
+
+To my wee ma and da for feeding me at 46 years old and keeping me sane in life ... love you xo
+
+Life is too short to dwell in the past ... smile & move forward people :)
 
 [Back to Top](#ballymena-united-fc-women)
